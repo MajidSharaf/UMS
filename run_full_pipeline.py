@@ -119,8 +119,8 @@ def _call(model, system_prompt, user_prompt, *, images=None, num_predict=800,
         return "", str(exc)
 
 
-def run_image_analysis(images, vision_model, log):
-    prompt = prompts.get_prompt("image_analysis", "production")
+def run_image_analysis(images, vision_model, log, prompt=None):
+    prompt = prompt or prompts.get_prompt("image_analysis", "production")
     captions = []
     for img in images:
         user_prompt = prompt.render_user_prompt(CONTEXT=ds.image_prompt_context(img))
@@ -133,8 +133,8 @@ def run_image_analysis(images, vision_model, log):
     return captions
 
 
-def run_project_brief(pages, image_results, text_model, log):
-    prompt = prompts.get_prompt("project_brief", "production")
+def run_project_brief(pages, image_results, text_model, log, prompt=None):
+    prompt = prompt or prompts.get_prompt("project_brief", "production")
     evidence = "\n\n".join(ds.page_context_full(p) for p in pages)
     image_evidence = "\n".join(
         f"[Image, page {c['page']}]: {c['output']}" for c in image_results if c["output"]
@@ -147,8 +147,8 @@ def run_project_brief(pages, image_results, text_model, log):
     return text
 
 
-def run_executive_summary(brief_text, text_model, log):
-    prompt = prompts.get_prompt("executive_summary", "production")
+def run_executive_summary(brief_text, text_model, log, prompt=None):
+    prompt = prompt or prompts.get_prompt("executive_summary", "production")
     user_prompt = prompt.render_user_prompt(CONTEXT=brief_text)
     text, err = _call(text_model, prompt.system_prompt, user_prompt, num_predict=900,
                        timeout=240.0, response_format=None, label="executive summary")
@@ -156,8 +156,8 @@ def run_executive_summary(brief_text, text_model, log):
     return text
 
 
-def run_normalized_context(brief_text, summary_text, presentation_model, log):
-    prompt = prompts.get_prompt("normalized_context", "production")
+def run_normalized_context(brief_text, summary_text, presentation_model, log, prompt=None):
+    prompt = prompt or prompts.get_prompt("normalized_context", "production")
     context = f"Project brief:\n{brief_text}\n\nExecutive summary:\n{summary_text}"
     user_prompt = prompt.render_user_prompt(CONTEXT=context)
     text, err = _call(presentation_model, prompt.system_prompt, user_prompt, num_predict=900,
@@ -166,8 +166,8 @@ def run_normalized_context(brief_text, summary_text, presentation_model, log):
     return text
 
 
-def run_slide_plan(normalized_text, presentation_model, log):
-    prompt = prompts.get_prompt("slide_plan", "production")
+def run_slide_plan(normalized_text, presentation_model, log, prompt=None):
+    prompt = prompt or prompts.get_prompt("slide_plan", "production")
     user_prompt = prompt.render_user_prompt(CONTEXT=normalized_text)
     text, err = _call(presentation_model, prompt.system_prompt, user_prompt, num_predict=3000,
                        timeout=360.0, label="slide plan")
@@ -182,16 +182,16 @@ def run_slide_plan(normalized_text, presentation_model, log):
         return None
 
 
-def run_slide_enrichment(slide, normalized_text, presentation_model, log):
-    prompt = prompts.get_prompt("slide_enrichment", "production")
+def run_slide_enrichment(slide, normalized_text, presentation_model, log, prompt=None):
+    prompt = prompt or prompts.get_prompt("slide_enrichment", "production")
     user_prompt = prompt.render_user_prompt(SLIDE=json.dumps(slide), CONTEXT=normalized_text)
     text, err = _call(presentation_model, prompt.system_prompt, user_prompt, num_predict=500,
                        timeout=180.0, label=f"enrich slide {slide.get('title', '?')}")
     return text if not err else None
 
 
-def run_slide_content(slide, enrichment_text, presentation_model, log):
-    prompt = prompts.get_prompt("slide_content", "production")
+def run_slide_content(slide, enrichment_text, presentation_model, log, prompt=None):
+    prompt = prompt or prompts.get_prompt("slide_content", "production")
     context = json.dumps(slide) + "\n\nEnrichment:\n" + (enrichment_text or "")
     user_prompt = prompt.render_user_prompt(CONTEXT=context)
     text, err = _call(presentation_model, prompt.system_prompt, user_prompt, num_predict=500,
