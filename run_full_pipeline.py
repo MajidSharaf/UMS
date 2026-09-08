@@ -199,9 +199,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--text-model", default="gemma4:26b",
                          help="brief-project / brief-summary model (production default: Gemma 4 26B)")
-    parser.add_argument("--presentation-model", default="qwen3.6:35b",
+    parser.add_argument("--presentation-model", default="qwen3.6:35b-a3b",
                          help="publish-* stages model (production default: Qwen 3.6 35B A3B)")
-    parser.add_argument("--vision-model", default="qwen3-vl:8b",
+    parser.add_argument("--vision-model", default="qwen3-vl:8b-instruct",
                          help="brief-image model (production default: Qwen3-VL 8B Instruct)")
     parser.add_argument("--max-images", type=int, default=None,
                          help="cap meaningful images processed, for a fast sanity pass")
