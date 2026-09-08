@@ -106,9 +106,14 @@ def _call(model, system_prompt, user_prompt, *, images=None, num_predict=800,
         result = ollama_client.generate(
             model=model, system_prompt=system_prompt, user_prompt=user_prompt,
             temperature=0.0, response_format=response_format, num_predict=num_predict,
-            num_ctx=num_ctx, timeout=timeout, images=images,
+            num_ctx=num_ctx, think=False, timeout=timeout, images=images,
         )
-        return result.output_text.strip(), None
+        text = result.output_text.strip()
+        if not text:
+            thinking = (result.raw_response.get("thinking") or "")[:200]
+            print(f"  WARNING: empty response ({label}); thinking field had "
+                  f"{len(result.raw_response.get('thinking', ''))} chars: {thinking!r}", file=sys.stderr)
+        return text, None
     except ollama_client.OllamaError as exc:
         print(f"  WARNING: call failed ({label}): {exc}", file=sys.stderr)
         return "", str(exc)

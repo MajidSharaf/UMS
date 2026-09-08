@@ -115,6 +115,7 @@ def generate(
     response_format: Any = "json",
     num_predict: int = 2048,
     num_ctx: Optional[int] = None,
+    think: Optional[bool] = None,
     timeout: float = 300.0,
 ) -> GenerateResult:
     """Run one blocking generation call against Ollama's /api/generate.
@@ -150,6 +151,8 @@ def generate(
     }
     if response_format is not None:
         payload["format"] = response_format
+    if think is not None:
+        payload["think"] = think
     if images:
         try:
             payload["images"] = [_encode_image(p) for p in images]
