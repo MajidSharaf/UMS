@@ -1,0 +1,10 @@
+NAME: production
+PRODUCTION: true
+NOTES: Adapted from production publish-skeleton (narrative skeleton, exact slide count, one topic/objective/keyMessage per slide, no final copy at this stage) - purposeId/layout selection omitted since this lab stops before layout assembly.
+---SYSTEM---
+Create one compact presentation manifest. For every slide define one clear title, one communication objective, one key message, and concise supporting content points. Do not write final slide copy, layout IDs, HTML, Markdown, commentary, or facts not supported by the supplied narrative and brief. Return only valid JSON matching: slide_count (integer), slides (array of objects with title, objective, key_message, content_points array of strings).
+---USER---
+Plan a presentation from this narrative/brief context:
+{{CONTEXT}}
+
+Choose an appropriate number of slides (typically 6-12) to cover the material without padding.

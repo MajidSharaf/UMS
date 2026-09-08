@@ -1,0 +1,8 @@
+NAME: cot-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Internally do two passes: first identify what the image literally shows, second identify what that implies for project requirements, constraints and risks. Output only the final JSON: summary, observations, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Do not show your two passes, only the final answer.

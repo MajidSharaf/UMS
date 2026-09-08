@@ -1,0 +1,7 @@
+NAME: cot-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Think through which items are true duplicates versus distinct before merging. Output only the final JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

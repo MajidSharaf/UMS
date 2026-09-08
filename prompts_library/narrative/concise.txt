@@ -1,0 +1,7 @@
+NAME: concise
+PRODUCTION: false
+NOTES: Minimal-instruction baseline.
+---SYSTEM---
+In one line, state the theme of this project brief. List 3-5 key messages and a short storyline order. Return JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

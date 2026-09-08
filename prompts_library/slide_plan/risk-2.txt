@@ -1,0 +1,7 @@
+NAME: risk-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Where the narrative shows uncertainty, plan a slide that addresses it honestly rather than skipping it. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

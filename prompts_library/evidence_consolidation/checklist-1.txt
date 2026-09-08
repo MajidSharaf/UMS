@@ -1,0 +1,7 @@
+NAME: checklist-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Checklist: 1) collect all facts, 2) collect all requirements, 3) collect all constraints, 4) collect all risks, 5) remove duplicates within each list. Return JSON matching those four fields.
+---USER---
+{{CONTEXT}}

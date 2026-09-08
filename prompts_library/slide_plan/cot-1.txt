@@ -1,0 +1,7 @@
+NAME: cot-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Silently plan the deck's overall arc before detailing individual slides. Output only the final JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

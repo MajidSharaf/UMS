@@ -1,0 +1,7 @@
+NAME: strict-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Preserve fidelity to the source over completeness. When merging near-duplicate items, keep the most precisely worded version rather than paraphrasing loosely. Return JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,7 @@
+NAME: terse-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Write this slide's final content. Short title, short bullets. Return JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

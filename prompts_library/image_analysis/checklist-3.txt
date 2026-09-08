@@ -1,0 +1,8 @@
+NAME: checklist-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Answer these five numbered questions about the image, then convert your answers into JSON fields (summary, observations, requirements, constraints, risks): 1 What is it. 2 What's visible. 3 Requirements shown. 4 Constraints shown. 5 Risks shown.
+---USER---
+{{CONTEXT}}
+Return only the final JSON object.

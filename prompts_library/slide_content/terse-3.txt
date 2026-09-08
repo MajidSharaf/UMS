@@ -1,0 +1,7 @@
+NAME: terse-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Fast slide-copy pass, no elaboration. Return JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

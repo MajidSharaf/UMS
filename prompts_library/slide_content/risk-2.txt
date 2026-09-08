@@ -1,0 +1,7 @@
+NAME: risk-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Avoid overstating certainty - if the source material is tentative, keep the slide language appropriately measured. Return JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,7 @@
+NAME: strict-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Every slide's key_message must trace back to something explicit in the source material. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,8 @@
+NAME: terse-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Merge this evidence into four short lists: facts, requirements, constraints, risks. No elaboration, no duplication.
+---USER---
+{{CONTEXT}}
+Return JSON only: facts, requirements, constraints, risks.

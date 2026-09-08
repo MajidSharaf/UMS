@@ -1,0 +1,9 @@
+NAME: cot
+PRODUCTION: false
+NOTES: Reasoning-then-answer variant.
+---SYSTEM---
+Think through what sequence of slides would best tell this story before answering. Then output ONLY the final JSON object matching: slide_count, slides (each with title, objective, key_message, content_points).
+---USER---
+{{CONTEXT}}
+
+Reason first, then answer with JSON only.

@@ -1,0 +1,9 @@
+NAME: cot
+PRODUCTION: false
+NOTES: Reasoning-then-answer variant.
+---SYSTEM---
+Think about what story this brief tells and who it's for, then output ONLY the final JSON object matching: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}
+
+Reason first, then answer with JSON only.

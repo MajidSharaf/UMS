@@ -1,0 +1,7 @@
+NAME: checklist-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Checklist: 1) write a clear title, 2) write concise body bullets covering the key message and required content, 3) add speaker_notes only if genuinely useful. Return JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

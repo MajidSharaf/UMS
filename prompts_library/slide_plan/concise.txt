@@ -1,0 +1,7 @@
+NAME: concise
+PRODUCTION: false
+NOTES: Fixed slide-count variant - tests numeric instruction-following vs the production variant's open slide count.
+---SYSTEM---
+Plan exactly 8 slides from this context. One title, one objective, one key message, and up to 3 content points per slide. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

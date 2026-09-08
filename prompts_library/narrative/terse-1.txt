@@ -1,0 +1,7 @@
+NAME: terse-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Distill this brief into a short narrative. One-line theme, few key messages, few storyline beats. Return JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,8 @@
+NAME: concise
+PRODUCTION: false
+NOTES: Minimal-instruction baseline.
+---SYSTEM---
+Summarize one document page in a sentence and list only explicit requirements, constraints and risks it states. Return JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+{{IMAGE_EVIDENCE}}

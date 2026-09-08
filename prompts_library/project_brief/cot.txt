@@ -1,0 +1,9 @@
+NAME: cot
+PRODUCTION: false
+NOTES: Reasoning-then-answer variant.
+---SYSTEM---
+Think through the evidence systematically - scope, requirements, risks, open questions - before answering. Then output ONLY the final JSON object matching: project_summary, requirements, constraints, risks, opportunities, assumptions.
+---USER---
+{{CONTEXT}}
+
+Reason first, then answer with JSON only.

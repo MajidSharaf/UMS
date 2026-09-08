@@ -1,0 +1,7 @@
+NAME: checklist-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Step 1 title. Step 2 body bullets. Step 3 decide if speaker_notes are needed. Return JSON matching those steps.
+---USER---
+{{CONTEXT}}

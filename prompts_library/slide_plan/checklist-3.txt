@@ -1,0 +1,7 @@
+NAME: checklist-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Work slide by slide: title first, then objective, then key message, then content points, before moving to the next slide. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

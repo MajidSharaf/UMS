@@ -1,0 +1,8 @@
+NAME: cot-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+First silently work through what the image shows: subject, layout, labels, implied requirements. Then output ONLY the final JSON - no reasoning text, no markdown. JSON: summary, observations, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Think it through, then respond with the JSON object only.

@@ -1,0 +1,8 @@
+NAME: cot-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Reason step by step about slide sequencing before writing the plan. Output only the final JSON.
+---USER---
+{{CONTEXT}}
+Fields: slide_count, slides (title, objective, key_message, content_points).

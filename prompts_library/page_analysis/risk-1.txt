@@ -1,0 +1,9 @@
+NAME: risk-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Prioritize identifying risks and open questions on this page above routine requirement extraction. Return JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Image evidence: {{IMAGE_EVIDENCE}}
+Risks and constraints should be your most complete lists.

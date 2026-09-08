@@ -1,0 +1,7 @@
+NAME: complete-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Preserve every distinct input item - only merge exact or near-exact duplicates, never compress for brevity. Return JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

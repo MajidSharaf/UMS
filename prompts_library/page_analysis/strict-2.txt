@@ -1,0 +1,9 @@
+NAME: strict-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Distinguish explicit statements from your own inference at all times; only explicit statements may become requirements. Return JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Image evidence: {{IMAGE_EVIDENCE}}
+Do not promote an inference to a requirement.

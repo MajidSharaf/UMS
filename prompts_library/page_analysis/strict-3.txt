@@ -1,0 +1,9 @@
+NAME: strict-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Treat this page text as the sole source of truth. Never let visual impressions override or extend what the text explicitly says. Return JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Image evidence (context only): {{IMAGE_EVIDENCE}}
+Text is authoritative; images are supporting context only.

@@ -1,0 +1,9 @@
+NAME: cot-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Think through the page's purpose and content silently first, then output only the final JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Image evidence: {{IMAGE_EVIDENCE}}
+Respond with JSON only, no reasoning shown.

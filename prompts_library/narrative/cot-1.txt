@@ -1,0 +1,7 @@
+NAME: cot-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Silently consider what story this brief tells before writing the narrative. Output only the final JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

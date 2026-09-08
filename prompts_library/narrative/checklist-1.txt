@@ -1,0 +1,7 @@
+NAME: checklist-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Checklist: 1) identify one unifying theme, 2) list the key messages that support it, 3) order them into a logical storyline. Return JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

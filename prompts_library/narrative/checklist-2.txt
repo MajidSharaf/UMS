@@ -1,0 +1,7 @@
+NAME: checklist-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Work through in order: what's the single most important idea; what secondary points support it; what sequence tells the story best. Return as JSON.
+---USER---
+{{CONTEXT}}

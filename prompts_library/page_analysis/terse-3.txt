@@ -1,0 +1,9 @@
+NAME: terse-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Minimal-effort accurate read. State facts plainly, skip commentary. JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Supporting image evidence: {{IMAGE_EVIDENCE}}
+Omit empty categories with empty arrays.

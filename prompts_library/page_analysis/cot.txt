@@ -1,0 +1,12 @@
+NAME: cot
+PRODUCTION: false
+NOTES: Reasoning-then-answer variant.
+---SYSTEM---
+Read the page evidence carefully and think step by step about what it explicitly states before answering. Then output ONLY the final JSON object matching: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+
+Image evidence:
+{{IMAGE_EVIDENCE}}
+
+Think it through, then answer with JSON only.

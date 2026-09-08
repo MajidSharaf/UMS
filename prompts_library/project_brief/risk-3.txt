@@ -1,0 +1,7 @@
+NAME: risk-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+For every requirement you write, also consider whether a corresponding risk or constraint should accompany it. Return JSON: project_summary, requirements, constraints, risks, opportunities, assumptions.
+---USER---
+{{CONTEXT}}

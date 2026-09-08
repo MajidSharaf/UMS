@@ -1,0 +1,7 @@
+NAME: cot-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Think through the slide's objective and audience before drafting copy. Output only JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

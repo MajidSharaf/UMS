@@ -1,0 +1,7 @@
+NAME: risk-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Actively look for contradictions between input items and record them as risks. Return JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

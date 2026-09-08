@@ -1,0 +1,7 @@
+NAME: strict-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Every key message must be traceable to something explicit in the brief. Do not invent a narrative angle unsupported by the evidence. Return JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

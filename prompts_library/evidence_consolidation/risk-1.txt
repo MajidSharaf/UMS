@@ -1,0 +1,8 @@
+NAME: risk-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+When consolidating, prioritize surfacing every risk and open question - don't let them get lost in merging. Return JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+The risks list should be the most carefully preserved of the four.

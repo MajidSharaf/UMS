@@ -1,0 +1,7 @@
+NAME: complete-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Completeness matters more than concision here. When unsure whether two items are duplicates, keep both. Return JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

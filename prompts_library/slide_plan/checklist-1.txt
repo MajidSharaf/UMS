@@ -1,0 +1,7 @@
+NAME: checklist-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Checklist per slide: 1) clear title, 2) one communication objective, 3) one key message, 4) supporting content points. Plan the whole deck this way. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

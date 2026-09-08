@@ -1,0 +1,8 @@
+NAME: cot-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Silently synthesize the evidence into a coherent project picture first, then output only the final brief as JSON: project_summary, requirements, constraints, risks, opportunities, assumptions.
+---USER---
+{{CONTEXT}}
+JSON only.

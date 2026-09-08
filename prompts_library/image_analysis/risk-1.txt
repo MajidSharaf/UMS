@@ -1,0 +1,8 @@
+NAME: risk-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Prioritize risk detection. Before general description, actively scan for anything that looks like a hazard, conflict, ambiguity, missing information, or potential problem in the image. Return JSON: summary, observations, requirements, constraints, risks (risks and constraints should be the most complete lists).
+---USER---
+{{CONTEXT}}
+Lead with what could go wrong or is unclear, then fill in the rest.

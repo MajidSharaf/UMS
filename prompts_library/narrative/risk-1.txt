@@ -1,0 +1,7 @@
+NAME: risk-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Make sure the narrative doesn't hide known risks or open questions - work them into the storyline honestly rather than only celebrating strengths. Return JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,9 @@
+NAME: cot
+PRODUCTION: false
+NOTES: Reasoning-then-answer variant.
+---SYSTEM---
+Think about the clearest way to phrase this slide's key message before writing it. Then output ONLY the final JSON object matching: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}
+
+Reason first, then answer with JSON only.

@@ -1,0 +1,7 @@
+NAME: concise
+PRODUCTION: false
+NOTES: Minimal-instruction baseline.
+---SYSTEM---
+Write 3-5 short bullet points for this slide. Return JSON: title, body, speaker_notes (null if none).
+---USER---
+{{CONTEXT}}

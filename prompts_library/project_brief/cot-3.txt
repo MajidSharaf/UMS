@@ -1,0 +1,8 @@
+NAME: cot-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Think step by step through the evidence before drafting the brief. Output only the final JSON.
+---USER---
+{{CONTEXT}}
+Fields: project_summary, requirements, constraints, risks, opportunities, assumptions.

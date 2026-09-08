@@ -1,0 +1,8 @@
+NAME: checklist-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Checklist: 1) What type of image is this? 2) What is explicitly labeled or printed? 3) What requirements does it imply? 4) What constraints does it imply? 5) What risks does it imply? 6) Did you invent anything - if so remove it. Return JSON: summary, observations, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Follow the checklist silently, output only the JSON result.

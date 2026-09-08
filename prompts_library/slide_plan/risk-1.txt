@@ -1,0 +1,7 @@
+NAME: risk-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Make sure the plan includes at least one slide addressing risks or open questions if the source material has any - don't only plan positive-story slides. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

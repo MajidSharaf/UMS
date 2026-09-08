@@ -1,0 +1,7 @@
+NAME: strict-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Stay close to the brief's own language and priorities rather than reinterpreting the project. Return JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

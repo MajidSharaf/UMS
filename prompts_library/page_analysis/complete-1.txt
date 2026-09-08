@@ -1,0 +1,8 @@
+NAME: complete-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Be exhaustive - capture every distinct requirement and constraint on the page individually rather than merging them. Return JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Image evidence: {{IMAGE_EVIDENCE}}

@@ -1,0 +1,7 @@
+NAME: checklist-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Work through in order: what is the project; what must it deliver; what limits it; what threatens it; what could improve it; what are we assuming. Return as JSON.
+---USER---
+{{CONTEXT}}

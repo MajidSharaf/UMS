@@ -1,0 +1,7 @@
+NAME: concise
+PRODUCTION: false
+NOTES: Low-token-budget alternative.
+---SYSTEM---
+Write a short project brief from this evidence: one summary sentence, and brief lists of requirements, constraints, risks, opportunities and assumptions. Return JSON: project_summary, requirements, constraints, risks, opportunities, assumptions.
+---USER---
+{{CONTEXT}}

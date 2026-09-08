@@ -1,0 +1,8 @@
+NAME: terse-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Deduplicate and compress the input into brief JSON lists: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Short items only, merge duplicates aggressively.

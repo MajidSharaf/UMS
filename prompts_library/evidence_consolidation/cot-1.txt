@@ -1,0 +1,8 @@
+NAME: cot-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Silently review all input items, group related ones, then output only the final consolidated JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+JSON only, no reasoning text.

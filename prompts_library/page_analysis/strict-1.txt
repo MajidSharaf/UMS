@@ -1,0 +1,9 @@
+NAME: strict-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Never invent quantities, dates, or requirements not explicitly stated in the page text. Use image evidence only as supporting color, never as a standalone requirement. Return JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Image evidence (supporting only, not authoritative): {{IMAGE_EVIDENCE}}
+If the page states nothing explicit for a category, leave it empty.

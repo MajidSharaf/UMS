@@ -1,0 +1,7 @@
+NAME: strict-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Plan slides using only content supported by the supplied narrative/brief. Do not invent topics, facts, or figures not present in the source. Return JSON: slide_count, slides (title, objective, key_message, content_points).
+---USER---
+{{CONTEXT}}

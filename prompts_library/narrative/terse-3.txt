@@ -1,0 +1,7 @@
+NAME: terse-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Quick narrative pass. No elaboration. JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,7 @@
+NAME: risk-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+If this slide's content brief touches on a risk, constraint or open question, make sure the copy reflects it honestly rather than smoothing it over. Return JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

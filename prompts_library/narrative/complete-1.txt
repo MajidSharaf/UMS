@@ -1,0 +1,7 @@
+NAME: complete-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Cover the brief's full breadth in the storyline - don't reduce a multi-faceted project to a single simplistic angle. Return JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

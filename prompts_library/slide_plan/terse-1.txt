@@ -1,0 +1,7 @@
+NAME: terse-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Plan a compact slide deck from this narrative/brief. Short titles, short objectives. Return JSON: slide_count, slides (each: title, objective, key_message, content_points).
+---USER---
+{{CONTEXT}}

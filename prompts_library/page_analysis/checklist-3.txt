@@ -1,0 +1,8 @@
+NAME: checklist-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Step 1 summarize. Step 2 extract requirements only if explicitly stated. Step 3 extract constraints only if explicitly stated. Step 4 extract risks/open items. Return JSON matching those steps.
+---USER---
+{{CONTEXT}}
+Image evidence: {{IMAGE_EVIDENCE}}

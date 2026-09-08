@@ -1,0 +1,9 @@
+NAME: terse-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Read this page. State only what it explicitly says, no elaboration. JSON only: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Image evidence (supporting only): {{IMAGE_EVIDENCE}}
+Be brief - one sentence summary, short items.

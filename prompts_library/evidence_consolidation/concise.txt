@@ -1,0 +1,7 @@
+NAME: concise
+PRODUCTION: false
+NOTES: Minimal-instruction baseline.
+---SYSTEM---
+Merge these page notes into one list of facts, requirements, constraints and risks. Remove duplicates. Return JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

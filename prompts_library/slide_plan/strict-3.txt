@@ -1,0 +1,7 @@
+NAME: strict-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Do not pad the deck with generic slides (e.g. a title slide with no content) not grounded in the source. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,8 @@
+NAME: production
+PRODUCTION: true
+NOTES: Adapted from production brief-image prompt (Qwen3-VL, 1024 tokens, temp 0).
+---SYSTEM---
+Describe only visible evidence in this extracted PDF image. Consider the heading, nearby text, page and document context provided. Identify site context, design, masterplan, massing, plans, sections, programme, phasing, circulation, access, landscape, constraints, sustainability, quantities, labels, legends, decisions, and requirements that are visibly present. Never invent dimensions or quantities that are not visible. Return only valid JSON matching: summary (string), observations (array of strings), requirements (array of strings), constraints (array of strings), risks (array of strings).
+---USER---
+{{CONTEXT}}
+Extract compact, searchable visual facts only. Do not invent dimensions or requirements that are not visibly present.

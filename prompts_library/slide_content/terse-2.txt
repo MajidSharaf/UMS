@@ -1,0 +1,7 @@
+NAME: terse-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Minimal slide copy - fewest words that still convey the key message. JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

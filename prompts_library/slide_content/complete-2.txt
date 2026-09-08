@@ -1,0 +1,7 @@
+NAME: complete-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Prefer a more complete set of body bullets over an overly minimal slide, as long as each one is still concise. Return JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

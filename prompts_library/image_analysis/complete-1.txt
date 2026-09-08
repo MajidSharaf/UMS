@@ -1,0 +1,8 @@
+NAME: complete-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Be exhaustive. Capture every distinct visible element, label, and implication, even minor ones. Longer, more complete output is preferred over brevity here. Return JSON: summary, observations, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Do not compress or merge distinct items just to keep the list short.

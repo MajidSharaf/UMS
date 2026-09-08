@@ -1,0 +1,7 @@
+NAME: complete-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Plan enough slides to cover the source material's full breadth without cramming multiple distinct ideas onto one slide. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

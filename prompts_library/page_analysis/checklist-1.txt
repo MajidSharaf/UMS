@@ -1,0 +1,9 @@
+NAME: checklist-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Checklist: 1) summarize the page in one sentence, 2) list explicit requirements, 3) list explicit constraints, 4) list explicit risks/open questions. Return as JSON with those four fields.
+---USER---
+{{CONTEXT}}
+Image evidence: {{IMAGE_EVIDENCE}}
+Work through the checklist in order.

@@ -1,0 +1,7 @@
+NAME: risk-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Use speaker_notes to flag anything on this slide that may need verification before presenting. Return JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

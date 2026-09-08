@@ -1,0 +1,7 @@
+NAME: strict-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+If the source material doesn't fully support a bullet point, omit it rather than filling the gap with generic content. Return JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

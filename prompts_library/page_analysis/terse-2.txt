@@ -1,0 +1,9 @@
+NAME: terse-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Fast page triage. Short summary, short bullet-style items only. Return JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Images on this page: {{IMAGE_EVIDENCE}}
+No item over one line.

@@ -1,0 +1,7 @@
+NAME: terse-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Write a compact project brief from this evidence. Short summary, short lists. Return JSON: project_summary, requirements, constraints, risks, opportunities, assumptions.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,7 @@
+NAME: risk-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Balance the deck across opportunities and challenges shown in the source, not just the positive narrative. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

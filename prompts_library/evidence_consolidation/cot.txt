@@ -1,0 +1,9 @@
+NAME: cot
+PRODUCTION: false
+NOTES: Reasoning-then-answer variant.
+---SYSTEM---
+Review all supplied page evidence, mentally group related items across pages, then output ONLY the final consolidated JSON object matching: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+
+Think through overlaps and gaps first, then answer with JSON only.

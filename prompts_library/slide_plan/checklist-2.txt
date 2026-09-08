@@ -1,0 +1,7 @@
+NAME: checklist-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+For the deck: 1) decide how many slides are needed, 2) assign each a single purpose, 3) give each a title, objective, key message and content points. Return as JSON.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,8 @@
+NAME: cot-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Before answering, silently ask: what is this image, what document context surrounds it, what would a reviewer need to know. Then answer as JSON only: summary, observations, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Respond with JSON only, no visible reasoning.

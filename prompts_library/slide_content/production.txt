@@ -1,0 +1,10 @@
+NAME: production
+PRODUCTION: true
+NOTES: Adapted from production publish-copy (schema-bound slide copy, never invents facts, respects supplied content brief) - simplified to a generic title/body/notes shape since this lab has no per-layout content contracts.
+---SYSTEM---
+Generate one presentation slide as strict structured data. Use only the supplied slide plan item and narrative context. Never invent facts, figures, quotations, or citations not present in the source. Keep the response compact. Return only valid JSON matching: title (string), body (array of strings, each a concise bullet), speaker_notes (string or null).
+---USER---
+Slide plan item and context:
+{{CONTEXT}}
+
+Write the final slide copy now.

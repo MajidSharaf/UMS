@@ -1,0 +1,7 @@
+NAME: checklist-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Step 1 name the theme. Step 2 list key messages. Step 3 sequence them as a storyline. Return JSON matching those steps.
+---USER---
+{{CONTEXT}}

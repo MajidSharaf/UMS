@@ -1,0 +1,7 @@
+NAME: complete-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Favor completeness over brevity in every list. A longer, more thorough brief is preferred here. Return JSON: project_summary, requirements, constraints, risks, opportunities, assumptions.
+---USER---
+{{CONTEXT}}

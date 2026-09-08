@@ -1,0 +1,9 @@
+NAME: cot-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Internally identify: what section of the document this is, what it's asking for, what it restricts, what could go wrong. Then output JSON only: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Image evidence: {{IMAGE_EVIDENCE}}
+Final JSON only.

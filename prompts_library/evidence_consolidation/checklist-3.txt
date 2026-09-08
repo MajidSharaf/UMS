@@ -1,0 +1,7 @@
+NAME: checklist-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+For each input item, classify it as fact, requirement, constraint, or risk, then deduplicate within each resulting list. Return JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

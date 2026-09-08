@@ -1,0 +1,8 @@
+NAME: cot-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Reason step by step about the page's content before answering, but show only the answer. JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Image evidence: {{IMAGE_EVIDENCE}}

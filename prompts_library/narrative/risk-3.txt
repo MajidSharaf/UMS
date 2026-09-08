@@ -1,0 +1,7 @@
+NAME: risk-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Balance the narrative - don't let opportunities dominate if the brief shows meaningful constraints or risks too. Return JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

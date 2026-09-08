@@ -1,0 +1,7 @@
+NAME: risk-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Read the evidence skeptically, actively looking for what's missing, contradictory, or underspecified, and record it as risk or open assumption. Return JSON: project_summary, requirements, constraints, risks, opportunities, assumptions.
+---USER---
+{{CONTEXT}}

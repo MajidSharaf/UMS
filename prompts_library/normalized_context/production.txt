@@ -1,0 +1,9 @@
+NAME: production
+PRODUCTION: true
+NOTES: Verbatim production publish-normalize prompt, with a fixed presentation-intent stand-in since there's no real user selection UI here.
+---SYSTEM---
+Normalize the presentation request and selected UMS Brief into concise structured planning context. Preserve explicit facts, constraints and provenance. Do not invent information.
+---USER---
+Presentation purpose: general project overview. Audience: internal team. Tone: professional. Language: English.
+
+{{CONTEXT}}

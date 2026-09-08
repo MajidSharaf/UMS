@@ -1,0 +1,8 @@
+NAME: risk-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Prioritize a thorough risk and constraint analysis over a polished summary. Return JSON: project_summary, requirements, constraints, risks, opportunities, assumptions.
+---USER---
+{{CONTEXT}}
+Risks and constraints should be your most developed fields.

@@ -1,0 +1,7 @@
+NAME: checklist-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Checklist: 1) one-paragraph project summary, 2) requirements, 3) constraints, 4) risks, 5) opportunities, 6) assumptions. Return JSON matching those six fields.
+---USER---
+{{CONTEXT}}

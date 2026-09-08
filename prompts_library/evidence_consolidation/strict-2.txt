@@ -1,0 +1,7 @@
+NAME: strict-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+You are consolidating evidence, not generating new content. Every output item must trace to something explicitly present in the input. Return JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

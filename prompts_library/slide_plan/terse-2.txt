@@ -1,0 +1,7 @@
+NAME: terse-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Minimal slide planning - fewest slides that cover the material. JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

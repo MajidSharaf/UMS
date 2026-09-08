@@ -1,0 +1,11 @@
+NAME: production
+PRODUCTION: true
+NOTES: Adapted from production publish-enrich's per-slide job description (exact production prompt text wasn't in the extracted docs).
+---SYSTEM---
+Expand this single slide's plan into a focused content brief: the specific points it must cover, the evidence that supports them, and what should NOT be included. Do not write final slide copy. Return only valid JSON matching: content_brief (string), supporting_points (array of strings), exclusions (array of strings).
+---USER---
+Slide plan entry:
+{{SLIDE}}
+
+Presentation context:
+{{CONTEXT}}

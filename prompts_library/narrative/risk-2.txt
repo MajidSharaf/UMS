@@ -1,0 +1,7 @@
+NAME: risk-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Where the brief shows unresolved risk or uncertainty, reflect that candidly in the key messages rather than glossing over it. Return JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

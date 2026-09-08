@@ -1,0 +1,8 @@
+NAME: complete-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Describe the image at three layers of detail: overall subject, then specific labeled elements, then implied project information. Capture all three layers fully. Return JSON: summary, observations, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Include every layer's findings in the appropriate list.

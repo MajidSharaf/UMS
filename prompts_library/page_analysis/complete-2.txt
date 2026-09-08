@@ -1,0 +1,8 @@
+NAME: complete-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Prefer completeness over brevity. If in doubt about whether something belongs in a list, include it. Return JSON: summary, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Image evidence: {{IMAGE_EVIDENCE}}

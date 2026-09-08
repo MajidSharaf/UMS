@@ -1,0 +1,8 @@
+NAME: terse-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Single-pass visual read. No elaboration, no hedging language. JSON only, matching: summary, observations, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Extract facts in one pass, do not revise or add caveats.

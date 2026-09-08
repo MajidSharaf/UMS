@@ -1,0 +1,7 @@
+NAME: cot-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Think through what sequence of slides best tells this story, then output only JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

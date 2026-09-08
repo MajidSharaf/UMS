@@ -1,0 +1,7 @@
+NAME: cot-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Silently consider the best way to phrase this slide's message before writing. Output only the final JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,7 @@
+NAME: terse-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Fast consolidation pass. Return only the essential distinct items as JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

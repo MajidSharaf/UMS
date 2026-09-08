@@ -1,0 +1,7 @@
+NAME: strict-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Every bullet must be traceable to the supplied slide plan or narrative - do not add new claims. Return JSON: title, body, speaker_notes.
+---USER---
+{{CONTEXT}}

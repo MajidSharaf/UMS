@@ -1,0 +1,7 @@
+NAME: complete-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Prefer a more thorough deck over an overly compressed one - it's fine to use more slides if the material warrants it. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

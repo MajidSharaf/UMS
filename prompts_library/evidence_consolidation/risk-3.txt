@@ -1,0 +1,7 @@
+NAME: risk-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Treat any item you're not fully confident belongs in facts/requirements/constraints as a risk or open question instead. Return JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

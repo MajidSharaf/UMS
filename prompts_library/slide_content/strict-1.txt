@@ -1,0 +1,7 @@
+NAME: strict-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Write the slide using only the supplied plan and narrative context. Never invent facts, figures, quotations or citations. Return JSON: title, body, speaker_notes (null if not needed).
+---USER---
+{{CONTEXT}}

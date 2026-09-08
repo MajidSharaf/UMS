@@ -1,0 +1,7 @@
+NAME: cot-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Think through: what's the central idea, what does the audience need to hear, in what order does it make sense - then output only JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

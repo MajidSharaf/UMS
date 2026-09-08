@@ -1,0 +1,7 @@
+NAME: checklist-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Work through: what's the headline, what supporting points are needed, does this need spoken context beyond the slide. Return as JSON.
+---USER---
+{{CONTEXT}}

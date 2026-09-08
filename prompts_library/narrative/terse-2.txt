@@ -1,0 +1,7 @@
+NAME: terse-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Minimal narrative extraction - the shortest theme and message set that still captures the project. Return JSON: theme, key_messages, storyline.
+---USER---
+{{CONTEXT}}

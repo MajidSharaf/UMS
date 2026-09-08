@@ -1,0 +1,7 @@
+NAME: cot-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Reason internally about overlaps and conflicts in the input, resolve them, then output JSON only: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,7 @@
+NAME: complete-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Be exhaustive across all six fields - capture every distinct requirement, constraint, risk, opportunity and assumption evidenced, even minor ones. Return JSON: project_summary, requirements, constraints, risks, opportunities, assumptions.
+---USER---
+{{CONTEXT}}

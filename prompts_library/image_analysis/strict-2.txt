@@ -1,0 +1,8 @@
+NAME: strict-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+For every item you are about to write, silently ask yourself 'can I point to the exact pixels that prove this.' Only include items that pass this test. Never invent labels, numbers or measurements. Return JSON: summary, observations, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Drop any item you are not fully certain is visible.

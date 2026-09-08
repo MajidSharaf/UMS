@@ -1,0 +1,7 @@
+NAME: terse-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Fast slide outline, no elaboration per field. Return JSON: slide_count, slides.
+---USER---
+{{CONTEXT}}

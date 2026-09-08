@@ -1,0 +1,8 @@
+NAME: terse-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Look at the image. State only visible facts as short bullet fragments, no full sentences. Return JSON: summary, observations, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+Keep every item under 8 words.

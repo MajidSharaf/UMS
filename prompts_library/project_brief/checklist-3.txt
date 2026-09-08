@@ -1,0 +1,7 @@
+NAME: checklist-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+For each evidence item, classify as requirement, constraint, risk, opportunity or assumption before writing the summary. Return JSON with those six fields.
+---USER---
+{{CONTEXT}}

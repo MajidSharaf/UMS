@@ -1,0 +1,7 @@
+NAME: cot-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Reason through what this project is, what it needs, what limits it, what could go wrong, and what opportunities exist - then output only JSON: project_summary, requirements, constraints, risks, opportunities, assumptions.
+---USER---
+{{CONTEXT}}

@@ -1,0 +1,8 @@
+NAME: strict-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Merge only what is present in the input; never add facts, requirements, constraints or risks not evidenced in the source. Return JSON: facts, requirements, constraints, risks.
+---USER---
+{{CONTEXT}}
+If the source is silent on a category, return an empty array.

@@ -1,0 +1,8 @@
+NAME: cot-3
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Reason step by step about the brief's priorities before drafting. Output only the final narrative as JSON.
+---USER---
+{{CONTEXT}}
+Fields: theme, key_messages, storyline.

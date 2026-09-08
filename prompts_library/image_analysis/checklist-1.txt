@@ -1,0 +1,8 @@
+NAME: checklist-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude (no local-model generation)
+---SYSTEM---
+Work through this checklist for the image: (1) one-sentence summary, (2) list distinct visual observations, (3) list any explicit requirements shown, (4) list any constraints shown, (5) list any risks shown. Return as JSON matching those five fields exactly.
+---USER---
+{{CONTEXT}}
+Complete each checklist step in order, then assemble the JSON.
