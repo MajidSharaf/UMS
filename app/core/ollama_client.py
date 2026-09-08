@@ -114,6 +114,7 @@ def generate(
     images: Optional[list[Path]] = None,
     response_format: Any = "json",
     num_predict: int = 2048,
+    num_ctx: Optional[int] = None,
     timeout: float = 300.0,
 ) -> GenerateResult:
     """Run one blocking generation call against Ollama's /api/generate.
@@ -123,8 +124,16 @@ def generate(
       - dict    -> full JSON Schema, constrains decoding to that shape
                    (Ollama structured outputs, needs a recent Ollama build)
       - None    -> no constraint, freeform text
+
+    num_ctx: context window size. Left unset, Ollama auto-sizes it from
+    available VRAM, which can end up smaller than a call's actual prompt
+    (seen in practice: a 4096-token auto default rejecting a 4389-token
+    image-analysis prompt with a 400). Pass an explicit value for any call
+    whose prompt can run long.
     """
     options: dict[str, Any] = {"temperature": temperature, "num_predict": num_predict}
+    if num_ctx is not None:
+        options["num_ctx"] = num_ctx
     if top_p is not None:
         options["top_p"] = top_p
     if top_k is not None:

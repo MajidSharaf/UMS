@@ -101,12 +101,12 @@ def seed_new_stage_prompts():
 # ---------------------------------------------------------------------------
 
 def _call(model, system_prompt, user_prompt, *, images=None, num_predict=800,
-          timeout=240.0, response_format="json", label=""):
+          num_ctx=8192, timeout=240.0, response_format="json", label=""):
     try:
         result = ollama_client.generate(
             model=model, system_prompt=system_prompt, user_prompt=user_prompt,
             temperature=0.0, response_format=response_format, num_predict=num_predict,
-            timeout=timeout, images=images,
+            num_ctx=num_ctx, timeout=timeout, images=images,
         )
         return result.output_text.strip(), None
     except ollama_client.OllamaError as exc:
@@ -164,15 +164,16 @@ def run_normalized_context(brief_text, summary_text, presentation_model, log):
 def run_slide_plan(normalized_text, presentation_model, log):
     prompt = prompts.get_prompt("slide_plan", "production")
     user_prompt = prompt.render_user_prompt(CONTEXT=normalized_text)
-    text, err = _call(presentation_model, prompt.system_prompt, user_prompt, num_predict=1800,
-                       timeout=300.0, label="slide plan")
+    text, err = _call(presentation_model, prompt.system_prompt, user_prompt, num_predict=3000,
+                       timeout=360.0, label="slide plan")
     log("slide plan: " + ("ok" if not err else f"FAILED ({err})"))
     if err:
         return None
     try:
         return json.loads(text)
-    except json.JSONDecodeError:
-        log("slide plan: response was not valid JSON, downstream slide stages will be skipped")
+    except json.JSONDecodeError as exc:
+        log(f"slide plan: response was not valid JSON ({exc}), downstream slide stages will be skipped")
+        log(f"slide plan: raw response tail: ...{text[-300:]}")
         return None
 
 
