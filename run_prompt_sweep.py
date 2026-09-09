@@ -16,11 +16,14 @@ against that same cached input:
     slide_plan              -> the real normalized context from the brief
     slide_content            -> one representative slide from the plan
 
-Usage:
+Usage (always inside tmux - a full sweep across ~23 variants x 4 stages runs
+long and must survive an SSH/browser disconnect):
+    tmux new -s sweep2
     python run_prompt_sweep.py --dry-run
     python run_prompt_sweep.py                       # every stage
     python run_prompt_sweep.py --stages project_brief slide_plan
     python run_prompt_sweep.py --run-id round2        # label this sweep instead of a timestamp
+    # Ctrl+B then D to detach; `tmux attach -t sweep2` to reattach later.
 
 Every run writes to its own experiments/prompt_sweep/<run-id>/ folder (run-id
 defaults to a timestamp) and refuses to overwrite an existing one, so an old

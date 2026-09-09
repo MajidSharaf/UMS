@@ -25,11 +25,14 @@ uses one generic content contract instead of a real per-layout schema.
 Neither affects brief/summary/slide-text quality, only final visual
 rendering, which is out of scope here.
 
-Usage:
+Usage (always inside tmux - this can run 10+ minutes and must survive an
+SSH/browser disconnect):
+    tmux new -s fullrun
     python run_full_pipeline.py --dry-run
     python run_full_pipeline.py
     python run_full_pipeline.py --run-id round2       # label this run instead of a timestamp
     python run_full_pipeline.py --max-images 5        # sanity pass before the full run
+    # Ctrl+B then D to detach; `tmux attach -t fullrun` to reattach later.
 
 Every run writes to its own experiments/full_pipeline/<run-id>/ folder (run-id
 defaults to a timestamp) and refuses to overwrite an existing one - past runs,
