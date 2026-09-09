@@ -1,0 +1,107 @@
+// prompt: terse-2   elapsed: 29.3s   production_baseline: False
+
+{
+  "presentationSummary": "A condensed 5-slide deck covering the P2 South Business Park overview, focusing on Najdi heritage integration, technical structural specs, connectivity via MoC bridge, sustainability targets, and key risks.",
+  "slides": [
+    {
+      "index": 1,
+      "title": "Project Vision & Heritage Integration",
+      "topic": "Introduction & Design Philosophy",
+      "communicationObjective": "Establish the project as a commercial development honoring Najdi heritage adjacent to At-Turaif UNESCO.",
+      "keyMessage": "Blends modern commerce with traditional Najdi aesthetics (mud-brick, Sharfat parapets, courtyards) to regulate micro-climates.",
+      "purposeId": "vision_heritage",
+      "rationale": "Sets the cultural context and design driver immediately.",
+      "visualRole": "none"
+    },
+    {
+      "index": 2,
+      "title": "Technical Specifications: Structural & Parking",
+      "topic": "Infrastructure Requirements",
+      "communicationObjective": "Define critical load capacities and parking infrastructure details.",
+      "keyMessage": "G+3 Zone (107.5 KPA) and On Grade Zone (50.0 KPA); Multi-level parking (B1-B3) with dedicated MEP/BOH zones.",
+      "purposeId": "technical_specs",
+      "rationale": "Provides essential structural data for engineering alignment.",
+      "visualRole": "none"
+    },
+    {
+      "index": 3,
+      "title": "Connectivity & Circulation Strategy",
+      "topic": "Circulation & Access",
+      "communicationObjective": "Explain the complex linkage between parking levels and public assets.",
+      "keyMessage": "Seamless vertical circulation via Ministry of Culture (MoC) bridge and welcome halls connecting four parking levels to ground level.",
+      "purposeId": "connectivity",
+      "rationale": "Addresses the primary logistical challenge of site integration.",
+      "visualRole": "none"
+    },
+    {
+      "index": 4,
+      "title": "Sustainability Certifications & Strategies",
+      "topic": "Environmental Goals",
+      "communicationObjective": "Outline the mandatory certification targets and passive design strategies.",
+      "keyMessage": "Targets: LEED BD+C Gold, SITES Gold, MOSTADAM D+C Gold achieved through passive design and water conservation.",
+      "purposeId": "sustainability",
+      "rationale": "Highlights the non-negotiable environmental standards.",
+      "visualRole": "none"
+    },
+    {
+      "index": 5,
+      "title": "Risks & Critical Gaps",
+      "topic": "Risk Management",
+      "communicationObjective": "Highlight architectural balance challenges and missing data points.",
+      "keyMessage": "Key Risks: Balancing modern needs with strict Najdi guidelines; Connectivity complexity. Missing Data: Specific dimensions, quantities, and timelines.",
+      "purposeId": "risks_gaps",
+      "rationale": "Concludes with a clear call to action regarding unresolved project constraints.",
+      "visualRole": "none"
+    },
+    {
+      "index": 6,
+      "title": "Conclusion & Next Steps",
+      "topic": "Summary & Action Plan",
+      "communicationObjective": "Reiterate the vision and define immediate actions to resolve gaps.",
+      "keyMessage": "A seamless blend of modern infrastructure and Najdi identity; Immediate need for detailed architectural drawings with dimensions.",
+      "purposeId": "conclusion",
+      "rationale": "Finalizes the presentation by linking the vision to required deliverables.",
+      "visualRole": "none"
+    },
+    {
+      "index": 7,
+      "title": "Q&A",
+      "topic": "Discussion",
+      "communicationObjective": "Open floor for team questions regarding risks and specifications.",
+      "keyMessage": "Discussion on resolving connectivity complexity and finalizing sustainability measures.",
+      "purposeId": "qa",
+      "rationale": "Facilitates team alignment on the identified risks.",
+      "visualRole": "none"
+    },
+    {
+      "index": 8,
+      "title": "Stakeholders & Authority Requirements",
+      "topic": "Governance",
+      "communicationObjective": "Identify key partners and regulatory constraints.",
+      "keyMessage": "Stakeholders: Diriyah Development, MoC; Constraints: UNESCO heritage context, King Khalid Road integration.",
+      "purposeId": "stakeholders",
+      "rationale": "Ensures awareness of external dependencies.",
+      "visualRole": "none"
+    },
+    {
+      "index": 9,
+      "title": "Scope of Work & Deliverables",
+      "topic": "Project Scope",
+      "communicationObjective": "List physical components and required design outputs.",
+      "keyMessage": "Includes offices, F&B, parking, landscaped pathways; Deliverables: Renderings, site plans, 3D schematics.",
+      "purposeId": "scope",
+      "rationale": "Clarifies the extent of work expected from the team.",
+      "visualRole": "none"
+    },
+    {
+      "index": 10,
+      "title": "Final Summary",
+      "topic": "Wrap Up",
+      "communicationObjective": "Reiterate the core vision and invite final discussion.",
+      "keyMessage": "A seamless blend of modern commercial infrastructure and traditional Najdi cultural identity.",
+      "purposeId": "final_summary",
+      "rationale": "Ends with a strong, unified message.",
+      "visualRole": "none"
+    }
+  ]
+}

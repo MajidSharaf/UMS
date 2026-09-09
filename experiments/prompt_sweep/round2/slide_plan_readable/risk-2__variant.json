@@ -1,0 +1,107 @@
+// prompt: risk-2   elapsed: 32.4s   production_baseline: False
+
+{
+  "presentationSummary": "The P2 South Business Park is a commercial development within the Diriyah Development, designed to honor Najdi architectural heritage while providing modern infrastructure. Key features include multi-level parking (B1-B3) connected to above-grade spaces via a Ministry of Culture bridge and welcome halls. The project targets LEED BD+C Gold, SITES Gold, and MOSTADAM D+C Gold certifications through被动",
+  "slides": [
+    {
+      "index": 1,
+      "title": "Project Overview & Vision",
+      "topic": "Introduction",
+      "communicationObjective": "Establish the project's identity as a bridge between modern commerce and Najdi heritage.",
+      "keyMessage": "A commercial development honoring local Najdi style, adjacent to the At-Turaif UNESCO site.",
+      "purposeId": "general_project_overview",
+      "rationale": "Sets the cultural and strategic context for the internal team.",
+      "visualRole": "none"
+    },
+    {
+      "index": 2,
+      "title": "Architectural Vision: Najdi Heritage",
+      "topic": "Design Principles",
+      "communicationObjective": "Detail the specific architectural elements driving the design.",
+      "keyMessage": "Utilization of mud-brick aesthetics, 'Sharfat' parapets, central courtyards, and geometric patterns to regulate micro-climates.",
+      "purposeId": "general_project_overview",
+      "rationale": "Explains the core aesthetic driver and its functional benefits (micro-climate).",
+      "visualRole": "none"
+    },
+    {
+      "index": 3,
+      "title": "Technical Specifications: Structural & Parking",
+      "topic": "Technical Requirements",
+      "communicationObjective": "Define the structural capacities and parking infrastructure.",
+      "keyMessage": "G+3 Zone (107.5 KPA) and On Grade Zone (50.0 KPA); Multi-level car park with dedicated MEP/BOH zones.",
+      "purposeId": "general_project_overview",
+      "rationale": "Provides critical technical data for the team's understanding of load requirements.",
+      "visualRole": "none"
+    },
+    {
+      "index": 4,
+      "title": "Connectivity & Integration Strategy",
+      "topic": "Circulation",
+      "communicationObjective": "Explain how different levels and assets are linked.",
+      "keyMessage": "Seamless connection via Ministry of Culture (MoC) bridge and welcome halls linking four parking levels to ground level.",
+      "purposeId": "general_project_overview",
+      "rationale": "Addresses the complexity of vertical circulation and public access.",
+      "visualRole": "none"
+    },
+    {
+      "index": 5,
+      "title": "Sustainability & Certification Targets",
+      "topic": "Sustainability",
+      "communicationObjective": "Outline the environmental goals and required certifications.",
+      "keyMessage": "Targets: LEED BD+C Gold, SITES Gold, MOSTADAM D+C Gold via passive design and water conservation.",
+      "purposeId": "general_project_overview",
+      "rationale": "Highlights the project's commitment to high-level sustainability standards.",
+      "visualRole": "none"
+    },
+    {
+      "index": 6,
+      "title": "Scope of Work & Deliverables",
+      "topic": "Project Scope",
+      "communicationObjective": "List the physical components and design outputs required.",
+      "keyMessage": "Includes offices, F&B, parking, landscaped pathways; Deliverables include renderings, site plans, and 3D schematics.",
+      "purposeId": "general_project_overview",
+      "rationale": "Clarifies the extent of the project and expected outputs.",
+      "visualRole": "none"
+    },
+    {
+      "index": 7,
+      "title": "Stakeholders & Authority Requirements",
+      "topic": "Governance",
+      "communicationObjective": "Identify key partners and regulatory constraints.",
+      "keyMessage": "Stakeholders: Diriyah Development, MoC; Constraints: UNESCO heritage context, King Khalid Road integration.",
+      "purposeId": "general_project_overview",
+      "rationale": "Ensures the team is aware of external dependencies and approval processes.",
+      "visualRole": "none"
+    },
+    {
+      "index": 8,
+      "title": "Risks & Open Questions: Architectural Balance",
+      "topic": "Risk Management",
+      "communicationObjective": "Address the uncertainty regarding balancing modern commercial needs with strict Najdi heritage guidelines.",
+      "keyMessage": "Uncertainty exists on how to fully integrate modern functional requirements without compromising the authenticity of the Najdi aesthetic; requires iterative design review.",
+      "purposeId": "risk_management",
+      "rationale": "Honest acknowledgment of the tension between modern utility and heritage preservation, ensuring the team is prepared for potential design conflicts.",
+      "visualRole": "none"
+    },
+    {
+      "index": 9,
+      "title": "Risks & Open Questions: Connectivity Complexity",
+      "topic": "Risk Management",
+      "communicationObjective": "Address the uncertainty regarding the complexity of linking parking levels via the MoC bridge and welcome halls.",
+      "keyMessage": "Specific dimensions and quantities for the bridge and hall connections are currently missing from the brief, creating a risk for accurate structural planning and cost estimation.",
+      "purposeId": "risk_management",
+      "rationale": "Directly addresses the identified gap in data (dimensions/quantities) to prevent future scope creep or design errors.",
+      "visualRole": "none"
+    },
+    {
+      "index": 10,
+      "title": "Next Steps & Recommendations",
+      "topic": "Action Plan",
+      "communicationObjective": "Propose immediate actions to resolve identified gaps and proceed.",
+      "keyMessage": "Request detailed architectural drawings with specific dimensions; Clarify specific sustainability measures for Gold certification; Initiate design charrettes to balance heritage vs. modernity.",
+      "purposeId": "general_project_overview",
+      "rationale": "Drives the project forward by addressing identified missing information and risks.",
+      "visualRole": "none"
+    }
+  ]
+}

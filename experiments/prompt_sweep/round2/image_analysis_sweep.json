@@ -1,0 +1,140 @@
+[
+  {
+    "prompt_name": "checklist-1",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"A black-and-white photograph of ancient, partially ruined mud-brick structures with a modern metal walkway connecting sections, set against a flat, overcast sky.\", \"subjects\": [\"Ancient mud-brick architecture\", \"Ruined walls and towers\", \"Modern metal walkway\", \"Stone pathways and foundations\", \"Overcast sky\"], \"style\": [\"Black and white\", \"Architectural photography\", \"Historical preservation\", \"Monochrome\"], \"environment\": [\"Outdoor\", \"Desert or arid region\", \"Historic site\", \"Daytime (overcast)\"], \"colors\": [\"Black\", \"White\", \"Gray\"], \"visibleText\": [], \"uncertainties\": [], \"confidence\": {\"detection\": 0.99, \"interpretation\": 0.98}}}]",
+    "elapsed_seconds": 37.8
+  },
+  {
+    "prompt_name": "checklist-2",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"A black-and-white photograph of ancient, partially ruined mud-brick structures, likely in Diriyah, Saudi Arabia, featuring a prominent tower with decorative openings and a modern metal walkway connecting sections. The scene suggests a historical or heritage site with contemporary\", \"subjects\": [\"ancient mud-brick architecture\", \"ruined structures\", \"historical site\", \"modern walkway\", \"architectural details (e.g., triangular openings)\"], \"style\": [\"black-and-white\", \"architectural photography\", \"heritage documentation\"], \"environment\": [\"outdoor\", \"desert-like terrain\", \"archaeological or cultural site\"], \"colors\": [\"monochrome\", \"grayscale\"], \"visibleText\": [], \"uncertainties\": [\"No explicit text or labels are visible in the image.\"], \"confidence\": {\"detection\": 0.99, \"interpretation\": 0.98}}}]",
+    "elapsed_seconds": 8.8
+  },
+  {
+    "prompt_name": "checklist-3",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image shows the historic ruins of Diriyah, featuring ancient mud-brick structures with distinctive architectural details such as crenellations and arched openings, set against a barren landscape. A modern metal walkway connects parts of the site, indicating preservation or re\", \"subjects\": [\"Historic Diriyah ruins\", \"Ancient mud-brick architecture\", \"Crenellated walls\", \"Arched openings\", \"Modern walkway\", \"Desert landscape\"], \"style\": [\"Monochrome\", \"Architectural photography\", \"Historical documentation\", \"Site survey\"], \"environment\": [\"Desert\", \"Open-air\", \"Historic site\", \"Preserved ruins\"], \"colors\": [\"Black\", \"White\", \"Gray\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The image is monochrome, making it difficult to discern original colors of the structures.\", \"The scale and exact purpose of the modern walkway are not fully clear without additional context.\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 10.6
+  },
+  {
+    "prompt_name": "complete-1",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image depicts the historic ruins of Diriyah, a significant cultural and historical site in Saudi Arabia. The black-and-white photograph captures the weathered, mud-brick architecture of the site, including a prominent central structure with a distinctive stepped roofline and\\u9542\", \"subjects\": [\"Historic Diriyah\", \"Diriyah I\", \"P2 South Business Park\", \"Concept Stage Design Brief\", \"January 2025\"], \"style\": [\"Black and white\", \"Architectural photography\", \"Historical documentation\", \"Monochrome\"], \"environment\": [\"Outdoor\", \"Ruins\", \"Desert-like terrain\", \"Ancient architecture\"], \"colors\": [\"Monochrome\", \"Grayscale\", \"Shades of gray\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The image is black and white, so color information is not available.\", \"The exact location within Diriyah is not specified, though it is referenced as 'Diriyah I'.\", \"The date 'January, 2025' is likely a placeholder or reference date for the design brief, not the actual date the photo was taken.\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 11.7
+  },
+  {
+    "prompt_name": "complete-2",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image depicts the historic ruins of Diriyah, featuring weathered mud-brick structures with distinctive architectural details such as crenellations and arched openings. A modern metal walkway bridges a gap between sections, indicating preservation or tourism infrastructure. A \", \"subjects\": [\"Ruins of Diriyah\", \"Mud-brick architecture\", \"Crenellated walls\", \"Arched openings\", \"Modern metal walkway\", \"Stone pathways and retaining walls\"], \"style\": [\"Monochrome\", \"High contrast\", \"Architectural photography\", \"Historical preservation context\"], \"environment\": [\"Open-air archaeological site\", \"Desert or arid landscape\", \"Daytime, overcast sky\"], \"colors\": [\"Monochrome (black and white)\", \"Grayscale tones\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The image is monochrome, so color details are not visible.\", \"The exact location within Diriyah is not specified, though it is clearly a historic site.\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 11.1
+  },
+  {
+    "prompt_name": "concise",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"This black-and-white image depicts the historic ruins of Diriyah, featuring ancient mud-brick structures with distinctive architectural details, likely serving as a cultural or heritage reference for the P2 South Business Park design brief.\", \"subjects\": [\"Historic Diriyah ruins\", \"Mud-brick architecture\", \"Architectural details (e.g., perforated walls, towers)\"], \"style\": [\"Monochrome\", \"Architectural photography\", \"Historical documentation\"], \"environment\": [\"Outdoor\", \"Desert-like terrain\", \"Ruined site with modern walkways\"], \"colors\": [\"Black\", \"White\", \"Gray tones\"], \"visibleText\": [], \"uncertainties\": [], \"confidence\": {\"detection\": 1.0, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 8.2
+  },
+  {
+    "prompt_name": "cot",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image shows the historic ruins of Diriyah, featuring ancient mud-brick structures with distinctive architectural details such as crenellations and arched openings. A modern metal walkway connects parts of the site, indicating preservation and accessibility efforts. The monoch\", \"subjects\": [\"Historic Diriyah ruins\", \"Mud-brick architecture\", \"Crenellated walls\", \"Architectural openings\", \"Modern walkway\"], \"style\": [\"Monochrome\", \"Architectural photography\", \"Historical preservation\"], \"environment\": [\"Outdoor\", \"Desert-like terrain\", \"Ruined site\", \"Daytime\"], \"colors\": [\"Black\", \"White\", \"Gray\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The image is monochrome, so color details are not visible.\", \"The exact scale and context of the ruins relative to the modern walkway are not fully clear.\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 10.4
+  },
+  {
+    "prompt_name": "cot-1",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image depicts the historic ruins of Diriyah, featuring ancient mud-brick structures with distinctive architectural details such as crenellations and arched openings. A modern metal walkway connects parts of the site, indicating preservation and accessibility efforts. The monu\", \"subjects\": [\"Historic Diriyah ruins\", \"Mud-brick architecture\", \"Crenellated walls\", \"Architectural openings\", \"Modern walkway\"], \"style\": [\"Monochrome\", \"Architectural photography\", \"Historical preservation\"], \"environment\": [\"Outdoor\", \"Desert-like terrain\", \"Ruined structures\", \"Modern infrastructure integration\"], \"colors\": [\"Black\", \"White\", \"Gray\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The image is monochrome, making it difficult to discern original colors of the structures.\", \"The presence of modern walkways suggests the site is actively managed, but the extent of restoration or preservation is unclear.\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 10.6
+  },
+  {
+    "prompt_name": "cot-2",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image depicts the historic ruins of Diriyah, featuring weathered mud-brick structures with distinctive architectural details such as crenellations and arched openings. A modern metal walkway bridges a gap between sections, indicating preservation and accessibility efforts. A \", \"subjects\": [\"Historic Diriyah ruins\", \"Mud-brick architecture\", \"Crenellated walls\", \"Modern walkway\", \"Architectural preservation\"], \"style\": [\"Black and white\", \"Architectural photography\", \"Historical documentation\"], \"environment\": [\"Outdoor\", \"Desert-like terrain\", \"Ruined urban landscape\"], \"colors\": [\"Monochrome\", \"Grayscale\", \"Earth tones\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The image is black and white, so color details are not visible.\", \"The exact scale and context of the ruins relative to the modern walkway are not fully clear.\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 10.6
+  },
+  {
+    "prompt_name": "cot-3",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image depicts the historic ruins of Diriyah, featuring ancient mud-brick structures with distinctive architectural details such as crenellations and arched openings. The scene includes modern walkways and lighting, suggesting a preserved or reconstructed site for public or\\u6587\\u65c5\\uff08\", \"subjects\": [\"architectural heritage\", \"historical preservation\", \"urban development\"], \"style\": [\"monochrome\", \"architectural photography\", \"heritage documentation\"], \"environment\": [\"desert\", \"open-air\", \"ruins\"], \"colors\": [\"grayscale\", \"neutral tones\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\"], \"uncertainties\": [\"The image is monochrome, which may obscure color details relevant to materiality or context.\", \"The presence of modern infrastructure (walkways, lighting) may not be fully aligned with the historical authenticity of the site.\"], \"confidence\": {\"detection\": 0.95, \"interpretation\": 0.9}}}]",
+    "elapsed_seconds": 9.8
+  },
+  {
+    "prompt_name": "persona-1",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image depicts a monochrome photograph of historic ruins, likely in Diriyah, Saudi Arabia, featuring a prominent mud-brick structure with decorative perforations and a modern metal walkway. The scene is consistent with the context of a heritage site being integrated into a new\", \"subjects\": [\"Historic Diriyah\", \"Diriyah I\", \"Concept Stage Design Brief\"], \"style\": [\"Monochrome\", \"Architectural\", \"Heritage\"], \"environment\": [\"Outdoor\", \"Ruins\", \"Desert-like\"], \"colors\": [\"Black\", \"White\", \"Gray\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The image is monochrome, which may not accurately represent the original colors of the site.\", \"The presence of a modern walkway suggests a contemporary intervention, which may not be consistent with the historical context of the ruins.\"], \"confidence\": {\"detection\": 0.95, \"interpretation\": 0.9}}}]",
+    "elapsed_seconds": 10.3
+  },
+  {
+    "prompt_name": "persona-2",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image depicts the historic Diriyah site, specifically the 'Diriyah I' area, which is referenced in the design brief for the P2 South Business Park. The structure shown is a reconstructed or preserved historic building with traditional architectural elements, including a tower\", \"subjects\": [\"Diriyah I\", \"Historic Diriyah\", \"P2 South Business Park\", \"Concept Stage Design Brief\"], \"style\": [\"Black and white\", \"Architectural photography\", \"Historic preservation\"], \"environment\": [\"Outdoor\", \"Desert-like terrain\", \"Ruins and reconstructed structures\"], \"colors\": [\"Monochrome\", \"Grayscale\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The image is black and white, which may obscure details of the original color scheme or material textures.\", \"The specific location within Diriyah is not explicitly labeled, though it is implied to be 'Diriyah I'.\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 10.6
+  },
+  {
+    "prompt_name": "persona-3",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image depicts the ruins of a historic structure at Diriyah, featuring weathered mud-brick walls, a prominent central tower with decorative perforations, and a modern metal walkway connecting sections. The site appears to be an archaeological or heritage preservation area with\", \"subjects\": [\"Historic Diriyah ruins\", \"Mud-brick architecture\", \"Central tower with decorative openings\", \"Modern metal walkway\", \"Stone pathways and retaining walls\"], \"style\": [\"Black and white\", \"Architectural photography\", \"Heritage documentation\"], \"environment\": [\"Open-air archaeological site\", \"Desert-like terrain\", \"Overcast sky\"], \"colors\": [\"Monochrome (grayscale)\", \"Shades of gray\"], \"visibleText\": [], \"uncertainties\": [\"No visible text or signage to confirm specific location or project name\", \"No visible scale or orientation markers\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 9.5
+  },
+  {
+    "prompt_name": "production",
+    "is_production_baseline": true,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image shows a black-and-white photograph of ancient, partially ruined mud-brick structures with a modern metal walkway connecting sections. The site appears to be an archaeological or heritage area with preserved ruins and contemporary visitor infrastructure.\", \"subjects\": [\"Historic Diriyah\", \"P2 South Business Park\", \"Concept Stage Design Brief\"], \"style\": [\"Black and white\", \"Architectural photography\", \"Heritage site\"], \"environment\": [\"Outdoor\", \"Desert-like terrain\", \"Ruins with modern walkway\"], \"colors\": [\"Monochrome\", \"Grayscale\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"No visible scale or measurements\", \"No visible labels or legends\", \"No visible site plan or section drawings\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 9.9
+  },
+  {
+    "prompt_name": "risk-1",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image shows the ruins of a historic structure in Diriyah, Saudi Arabia, likely part of the P2 South Business Park development. The black-and-white photo highlights the preserved architectural details of the ancient site, including a central tower with decorative openings and\\u574d\", \"subjects\": [\"Historic Diriyah ruins\", \"P2 South Business Park development\", \"Architectural heritage preservation\", \"Modern infrastructure integration\"], \"style\": [\"Black-and-white photography\", \"Architectural documentation\", \"Historical site survey\"], \"environment\": [\"Desert landscape\", \"Open-air archaeological site\", \"Modern walkways and railings\"], \"colors\": [\"Monochrome (black, white, gray)\", \"High contrast between stone and sky\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The exact location within Diriyah is not specified in the image or text.\", \"The relationship between the ruins and the P2 South Business Park is not visually clear.\", \"The purpose of the modern walkway and railings is not explained in the image or text.\"], \"confidence\": {\"detection\": 0.95, \"interpretation\": 0.85}}}]",
+    "elapsed_seconds": 11.4
+  },
+  {
+    "prompt_name": "risk-2",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image depicts a monochrome view of ancient, partially ruined mud-brick structures with modern walkways and lighting, likely representing a historical site in Diriyah. The context suggests this is a conceptual or pre-construction visualization for the P2 South Business Park, a\", \"subjects\": [\"Historic Diriyah ruins\", \"Modern interpretive infrastructure (walkways, lighting)\", \"Architectural preservation vs. modern integration\"], \"style\": [\"Monochrome\", \"Architectural photography\", \"Historical documentation\"], \"environment\": [\"Outdoor\", \"Desert or arid climate\", \"Daytime (overcast)\"], \"colors\": [\"Grayscale\", \"High contrast\", \"Muted tones\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The image is monochrome and lacks color context for material authenticity.\", \"The modern walkway and lighting appear to be staged or added for context, not part of the original ruins.\", \"The scale and perspective are ambiguous \\u2014 is this a real site or a conceptual rendering?\"], \"confidence\": {\"detection\": 0.95, \"interpretation\": 0.75}}}]",
+    "elapsed_seconds": 11.3
+  },
+  {
+    "prompt_name": "risk-3",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image shows a black-and-white photograph of ancient, partially ruined mud-brick structures with modern walkways and lighting, likely representing a historical site in Diriyah. The design brief references 'P2 South Business Park' and 'Diriyah I' as a concept stage project for \", \"subjects\": [\"P2 South Business Park\", \"Diriyah I\", \"Historic Diriyah\"], \"style\": [\"Black and white\", \"Architectural\", \"Historical ruins\", \"Modern integration\"], \"environment\": [\"Outdoor\", \"Desert-like terrain\", \"Ruins with modern infrastructure\"], \"colors\": [\"Monochrome\", \"Grayscale\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The image is black and white, which may obscure details or textures that are important for design decisions.\", \"The presence of modern elements (walkways, lighting) suggests a mixed-use or heritage tourism context, which may not be explicitly stated in the design brief.\"], \"confidence\": {\"detection\": 0.95, \"interpretation\": 0.9}}}]",
+    "elapsed_seconds": 10.9
+  },
+  {
+    "prompt_name": "strict-1",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image is a black-and-white photograph of ancient, partially ruined mud-brick structures, likely historical ruins in Diriyah, Saudi Arabia. The central structure features a tall, irregularly shaped tower with decorative perforations and a smaller tower-like element. A modern,\\u7c21\", \"subjects\": [\"Ancient mud-brick architecture\", \"Ruined structures\", \"Historical site\", \"Modern walkway or bridge\", \"Stone pathways and walls\"], \"style\": [\"Black and white\", \"Architectural photography\", \"Historical documentation\"], \"environment\": [\"Outdoor\", \"Desert or arid landscape\", \"Daytime (overcast sky)\"], \"colors\": [\"Monochrome (black, white, gray)\"], \"visibleText\": [], \"uncertainties\": [\"No visible text or markings on the structures\", \"No visible date or location markers in the image\"], \"confidence\": {\"detection\": 0.99, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 9.5
+  },
+  {
+    "prompt_name": "strict-2",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The image shows a black-and-white photograph of ancient, partially ruined mud-brick structures with distinctive architectural features such as crenellations and arched openings. A modern metal walkway connects sections of the ruins. The scene appears to be an archaeological or re\", \"subjects\": [\"ruined mud-brick structures\", \"modern metal walkway\", \"architectural crenellations\", \"arched openings\", \"ancient ruins\", \"archaeological site\"], \"style\": [\"black-and-white\", \"monochrome\", \"architectural photography\", \"historical documentation\"], \"environment\": [\"open-air\", \"desert-like terrain\", \"ruined urban landscape\", \"archaeological park\"], \"colors\": [\"gray\", \"black\", \"white\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The text 'P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief' is not visible in the image. It is only present in the provided text\", \"The date 'January, 2025' is not visible in the image. It is only present in the provided text\"], \"confidence\": {\"detection\": 0.99, \"interpretation\": 0.98}}}]",
+    "elapsed_seconds": 11.9
+  },
+  {
+    "prompt_name": "strict-3",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"A black-and-white photograph of ancient, partially ruined mud-brick structures with distinctive architectural features, including a central tower-like building with crenellations and multiple openings. A modern metal walkway connects parts of the site. The scene appears to be an\\u907a\", \"subjects\": [\"Ancient mud-brick architecture\", \"Ruined structures\", \"Central tower with crenellations\", \"Modern metal walkway\", \"Stone pathways and retaining walls\"], \"style\": [\"Black-and-white\", \"Architectural photography\", \"Historical site documentation\"], \"environment\": [\"Open-air archaeological site\", \"Desert or arid landscape (implied by texture and context)\", \"Overcast sky\"], \"colors\": [\"Monochrome (grayscale)\", \"Shades of gray from light to dark\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [\"The exact location or name of the site is not explicitly visible in the image, though text implies it is related to Diriyah.\", \"The date 'January, 2025' is visible but may not be part of the photograph itself; it is likely from the document metadata or caption.\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 11.5
+  },
+  {
+    "prompt_name": "terse-1",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"Concept design brief for P2 South Business Park in Diriyah, focusing on historic context and architectural integration.\", \"subjects\": [], \"style\": [], \"environment\": [], \"colors\": [], \"visibleText\": [], \"uncertainties\": [], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 5.9
+  },
+  {
+    "prompt_name": "terse-2",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"Historic Diriyah site in black and white.\", \"subjects\": [\"Ruined mud-brick structures\", \"Ancient architectural remnants\", \"Modern walkway connecting ruins\", \"Weathered walls with decorative patterns\", \"Overcast sky above ruins\"], \"style\": [\"Monochrome photography\", \"Architectural documentation\", \"Historical preservation theme\"], \"environment\": [\"Desert-like terrain\", \"Stone pathways and platforms\", \"Minimal vegetation visible\"], \"colors\": [\"Grayscale tones\", \"Shades of gray and black\"], \"visibleText\": [\"January, 2025\"], \"uncertainties\": [\"Exact location not specified\", \"Date context unclear\"], \"confidence\": {\"detection\": 0.98, \"interpretation\": 0.95}}}]",
+    "elapsed_seconds": 8.4
+  },
+  {
+    "prompt_name": "terse-3",
+    "is_production_baseline": false,
+    "output": "[{\"page\": 1, \"file\": \"img-p001-r001-01.png\", \"output\": {\"summary\": \"The document is a design brief for the P2 South Business Park in Diriyah, Saudi Arabia, dated January 2025, focusing on the Concept Stage for the 'Diriyah I' project.\", \"subjects\": [\"P2 South Business Park\", \"Diriyah\", \"Diriyah I\", \"Concept Stage Design Brief\"], \"style\": [\"Historic\", \"Architectural\", \"Monochrome\"], \"environment\": [\"Ruins\", \"Ancient Structures\", \"Desert Landscape\"], \"colors\": [\"Black\", \"White\", \"Gray\"], \"visibleText\": [\"P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief\", \"January, 2025\"], \"uncertainties\": [], \"confidence\": {\"detection\": 0.99, \"interpretation\": 0.99}}}]",
+    "elapsed_seconds": 9.2
+  }
+]
