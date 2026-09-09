@@ -1,0 +1,2907 @@
+{
+  "models": {
+    "text": "gemma4:26b",
+    "presentation": "qwen3.5:35b-a3b",
+    "vision": "qwen3-vl:8b-instruct"
+  },
+  "image_analysis": [
+    {
+      "page": 1,
+      "file": "img-p001-r001-01.png",
+      "output": {
+        "summary": "The image shows a black-and-white photograph of ancient, partially ruined mud-brick structures with a modern metal walkway connecting sections. The site appears to be an archaeological or heritage area with preserved ruins and contemporary visitor infrastructure.",
+        "subjects": [
+          "Historic Diriyah",
+          "P2 South Business Park",
+          "Concept Stage Design Brief"
+        ],
+        "style": [
+          "Black and white",
+          "Architectural photography",
+          "Heritage site"
+        ],
+        "environment": [
+          "Outdoor",
+          "Desert-like terrain",
+          "Ruined structures"
+        ],
+        "colors": [
+          "Monochrome",
+          "Grayscale"
+        ],
+        "visibleText": [
+          "P2 SOUTH BUSINESS PARK HISTORIC DIRIYAH | DIRIYAH I | Concept Stage Design Brief",
+          "January, 2025"
+        ],
+        "uncertainties": [
+          "No visible scale or measurements",
+          "No visible site plan or legend",
+          "No visible design constraints or requirements"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 2,
+      "file": "img-p002-r001-01.jpeg",
+      "output": {
+        "summary": "The image shows a sepia-toned view of ancient, weathered stone structures with irregular, organic shapes, illuminated by artificial lighting against a hazy sky. Modern elements like railings and paved walkways are visible at the base, suggesting a curated or restored site.",
+        "subjects": [
+          "ancient stone architecture",
+          "irregular architectural forms",
+          "artificial lighting",
+          "modern railings",
+          "paved walkways",
+          "hazy sky"
+        ],
+        "style": [
+          "sepia tone",
+          "architectural photography",
+          "historical site",
+          "restoration or heritage context"
+        ],
+        "environment": [
+          "outdoor setting",
+          "archaeological or historical site",
+          "evening or dusk lighting"
+        ],
+        "colors": [
+          "sepia",
+          "warm beige",
+          "dark shadows"
+        ],
+        "visibleText": [],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 3,
+      "file": "img-p003-r001-01.jpeg",
+      "output": {
+        "summary": "A close-up view of a traditional-style building entrance with adobe walls, a wooden door with red sun motifs, and hanging lanterns.",
+        "subjects": [
+          "Building entrance",
+          "Adobe walls",
+          "Wooden door",
+          "Hanging lanterns",
+          "Stone foundation"
+        ],
+        "style": [
+          "Traditional",
+          "Desert architecture",
+          "Rustic"
+        ],
+        "environment": [
+          "Outdoor",
+          "Daytime",
+          "Dry climate"
+        ],
+        "colors": [
+          "Tan",
+          "Brown",
+          "White",
+          "Red"
+        ],
+        "visibleText": [],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.99,
+          "interpretation": 0.98
+        }
+      }
+    },
+    {
+      "page": 4,
+      "file": "img-p004-r001-01.jpeg",
+      "output": {
+        "summary": "A map illustrating the location of Diriyah relative to Riyadh, highlighting key areas and landmarks with inset images and an airport icon.",
+        "subjects": [
+          "Diriyah",
+          "Riyadh",
+          "Airport",
+          "Wadi Safar",
+          "At-Turaif district"
+        ],
+        "style": [
+          "Minimalist",
+          "Monochrome with selective color highlights"
+        ],
+        "environment": [
+          "Urban",
+          "Rural",
+          "Historic"
+        ],
+        "colors": [
+          "White",
+          "Grey",
+          "Yellow",
+          "Brown",
+          "Red"
+        ],
+        "visibleText": [
+          "Diriyah is easily accessible from the airport and strategically located 15 minutes north-west of the Saudi capital, Riyadh.",
+          "Diriyah – the Jewel of the Kingdom – is home to At-Turaif district, a UNESCO World Heritage Site.",
+          "Diriyah is recognized as a symbolic center of inspiration for the generations of leaders that have led the Kingdom since the foundation of the first Saudi Arabi"
+        ],
+        "uncertainties": [
+          "The exact scale or orientation of the map is not visible."
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 5,
+      "file": "img-p005-r001-01.jpeg",
+      "output": {
+        "summary": "An aerial view of the Diriyah Development Master Plan, showcasing a dense urban layout with distinct zones, green spaces, and major roadways. The plan features a central area with radial road patterns, surrounded by structured residential and commercial districts, with visible ar",
+        "subjects": [
+          "Diriyah Development Master Plan",
+          "Urban Layout",
+          "Road Networks",
+          "Green Spaces",
+          "Residential Districts",
+          "Commercial Districts"
+        ],
+        "style": [
+          "Aerial View",
+          "Top-Down Perspective",
+          "Satellite Imagery"
+        ],
+        "environment": [
+          "Desert Landscape",
+          "Urban Development",
+          "Mixed-Use Zones"
+        ],
+        "colors": [
+          "Beige",
+          "Brown",
+          "Green",
+          "Gray"
+        ],
+        "visibleText": [
+          "2.3 Illustrative Diriyah Development Master Plan",
+          "These assets encompass museums and cultural attractions built in the traditional Najdi Style, resonating with the UNESCO World Heritage Site of At-Turaif.",
+          "Retail is envisioned at three different levels: a district level offering, serving as the central node of the development, composed of an interesting network of",
+          "Educational needs will be ca"
+        ],
+        "uncertainties": [
+          "The text is partially cut off and incomplete."
+        ],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 6,
+      "file": "img-p006-r001-01.jpeg",
+      "output": {
+        "summary": "This is a master plan map of the Diriyah area, showing various districts and phases with color-coded zones and labeled areas such as Bujairi, Events District, Wadi Hanifah, Diriyah Phase 2, Diriyah South 1, Diriyah South 2, and Diriyah Gardens. Major roads and gateways are also标注",
+        "subjects": [
+          "Diriyah Phase 2",
+          "Diriyah South 1",
+          "Diriyah South 2",
+          "Diriyah Gardens",
+          "Wadi Hanifah",
+          "Bujairi"
+        ],
+        "style": [
+          "color-coded zones",
+          "labeled areas",
+          "road network",
+          "gateway indicators"
+        ],
+        "environment": [
+          "urban development",
+          "cultural and entertainment zones",
+          "mixed-use districts"
+        ],
+        "colors": [
+          "yellow for Diriyah Phase 2",
+          "green for Diriyah Gardens",
+          "orange for Diriyah South 1",
+          "pink for Diriyah North",
+          "purple for North Cultural District"
+        ],
+        "visibleText": [
+          "Diriyah Phase 2",
+          "Diriyah South 1",
+          "Diriyah South 2",
+          "Diriyah Gardens",
+          "Wadi Hanifah"
+        ],
+        "uncertainties": [
+          "The map does not show specific dimensions or quantities."
+        ],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 7,
+      "file": "img-p007-r001-01.jpeg",
+      "output": {
+        "summary": "Aerial view of the Events District in Diriyah, showing urban development, road networks, green spaces, and proximity to historical sites like At Turaif and Salwa Palace.",
+        "subjects": [
+          "Events District",
+          "Diriyah",
+          "At Turaif",
+          "Salwa Palace",
+          "Bujairi Terrace"
+        ],
+        "style": [
+          "Aerial photograph",
+          "Urban planning layout",
+          "Road network",
+          "Green spaces"
+        ],
+        "environment": [
+          "Urban development",
+          "Historical site",
+          "Green spaces",
+          "Road infrastructure"
+        ],
+        "colors": [
+          "Brown (buildings)",
+          "Green (vegetation)",
+          "Gray (roads)"
+        ],
+        "visibleText": [
+          "Events District",
+          "Diriyah",
+          "At Turaif",
+          "Salwa Palace",
+          "Bujairi Terrace"
+        ],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 7,
+      "file": "img-p007-r002-01.jpeg",
+      "output": {
+        "summary": "Map showing the layout of Diriyah with labeled districts including Events District, North Cultural District, Diriyah North, Diriyah Square, Diriyah South 1, Diriyah South 2, Diriyah Gardens, At Turaif, Bujairi, and Samhan. Key infrastructure includes a major road (Western Ring Rd",
+        "subjects": [
+          "Diriyah Phase 2",
+          "Events District",
+          "North Cultural District",
+          "Diriyah North",
+          "Diriyah Square",
+          "Diriyah South 1"
+        ],
+        "style": [
+          "color-coded districts",
+          "dashed boundaries",
+          "road network",
+          "gateway labels"
+        ],
+        "environment": [
+          "urban development",
+          "cultural heritage sites",
+          "transportation infrastructure"
+        ],
+        "colors": [
+          "yellow for Diriyah Phase 2",
+          "pink for Diriyah North",
+          "brown for Bujairi",
+          "green for Diriyah Gardens",
+          "purple for North Cultural District"
+        ],
+        "visibleText": [
+          "Gateway",
+          "Western Ring Road",
+          "Diriyah Phase 2",
+          "Diriyah South 1",
+          "Diriyah South 2"
+        ],
+        "uncertainties": [
+          "No visible scale or north arrow",
+          "No visible legend or key for color coding"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 8,
+      "file": "img-p008-r001-01.jpeg",
+      "output": {
+        "summary": "A conceptual rendering of the Wasla Bridge of D II, showing a covered pedestrian walkway with columns, patterned walls, and people in traditional attire. The scene includes bicycles and suggests a culturally themed public space with natural light filtering through.",
+        "subjects": [
+          "Wasla Bridge of D II",
+          "Pedestrian walkway",
+          "Columns",
+          "Patterned walls",
+          "People in traditional attire",
+          "Bicycles"
+        ],
+        "style": [
+          "Conceptual rendering",
+          "Watercolor or sketch style",
+          "Soft lighting",
+          "Architectural illustration"
+        ],
+        "environment": [
+          "Covered walkway",
+          "Stone paving",
+          "Natural light",
+          "Cultural context"
+        ],
+        "colors": [
+          "Warm tones",
+          "Earth tones",
+          "Beige",
+          "Brown",
+          "White"
+        ],
+        "visibleText": [
+          "Wasla Bridge of D II"
+        ],
+        "uncertainties": [
+          "No visible dimensions or scale indicators",
+          "No visible signage or labels beyond the title",
+          "No visible infrastructure details like utilities or structural elements beyond the rendering"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 8,
+      "file": "img-p008-r002-01.jpeg",
+      "output": {
+        "summary": "A conceptual rendering of the Wasla Bridge of D II, showing a pedestrian viewpoint overlooking a landscaped area with palm trees, a road with vehicles, and a multi-level building complex with traditional architectural elements.",
+        "subjects": [
+          "Wasla Bridge of D II",
+          "Pedestrian viewpoint",
+          "Palm trees",
+          "Road with vehicles",
+          "Multi-level building complex",
+          "Traditional architectural elements"
+        ],
+        "style": [
+          "Conceptual rendering",
+          "Watercolor/illustration style",
+          "Warm lighting",
+          "Soft focus"
+        ],
+        "environment": [
+          "Urban setting",
+          "Landscaped public space",
+          "Road infrastructure",
+          "Commercial buildings"
+        ],
+        "colors": [
+          "Warm tones (yellow, orange)",
+          "Beige and brown buildings",
+          "Green palm trees",
+          "White vehicles",
+          "Blue sky with sun rays"
+        ],
+        "visibleText": [
+          "Wasla Bridge of D II"
+        ],
+        "uncertainties": [
+          "No visible dimensions or quantities",
+          "No visible labels or legends",
+          "No visible site constraints or risks"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 9,
+      "file": "img-p009-r001-01.jpeg",
+      "output": {
+        "summary": "A site plan for the P2 South Business Park showing proposed building layouts, pedestrian pathways, and transportation infrastructure including a metro tunnel and bus routes.",
+        "subjects": [
+          "P2 South Business Park",
+          "Metro station",
+          "Bus routes",
+          "Pedestrian pathways",
+          "Building layouts"
+        ],
+        "style": [
+          "Color-coded zones",
+          "Arrow indicators for direction",
+          "Dotted lines for pathways",
+          "Icons for facilities"
+        ],
+        "environment": [
+          "Urban setting",
+          "Adjacent to major roads",
+          "Mixed-use development"
+        ],
+        "colors": [
+          "Green for pedestrian areas",
+          "Orange for building zones",
+          "Red for building boundaries",
+          "Blue for transportation routes"
+        ],
+        "visibleText": [
+          "M",
+          "16 17"
+        ],
+        "uncertainties": [
+          "The exact location of the metro station is not clearly marked on the map."
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.85
+        }
+      }
+    },
+    {
+      "page": 10,
+      "file": "img-p010-r001-01.jpeg",
+      "output": {
+        "summary": "This is a pre-concept master plan for the Historic Diriyah P2 area, highlighting key zones including the P2 South Business Park, Monument Plaza, HQ Offices, Metro Plaza, and connections from Sports Boulevard and a bridge to MOC and D1.",
+        "subjects": [
+          "Historic Diriyah P2",
+          "P2 South Business Park",
+          "Monument Plaza",
+          "HQ Offices",
+          "Metro Plaza",
+          "Sports Boulevard Connection"
+        ],
+        "style": [
+          "Figure-ground diagram",
+          "Open space system diagram"
+        ],
+        "environment": [
+          "Urban development",
+          "Mixed-use area",
+          "Transportation infrastructure"
+        ],
+        "colors": [
+          "Orange",
+          "Pink",
+          "Brown",
+          "Green",
+          "White"
+        ],
+        "visibleText": [
+          "Historic Diriyah P2 Pre-Concept Master Plan",
+          "Figure-ground",
+          "Open space system",
+          "Metro Plaza",
+          "Connection from Sports Boulevard"
+        ],
+        "uncertainties": [
+          "The document is a pre-concept master plan, so specific dimensions and detailed design are not yet finalized."
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 11,
+      "file": "img-p011-r001-01.jpeg",
+      "output": {
+        "summary": "A conceptual architectural rendering of a pedestrian-friendly commercial street within the P2 South Business Park, featuring traditional-inspired buildings with terracotta-colored facades, crenellated rooftops, and ground-level cafes and shops. People are depicted walking and社交, ",
+        "subjects": [
+          "Pedestrian street",
+          "Commercial buildings",
+          "Cafes and shops",
+          "People walking and socializing",
+          "Landscape elements (trees, planters)"
+        ],
+        "style": [
+          "Conceptual rendering",
+          "Architectural sketch",
+          "Traditional-inspired design",
+          "Crenellated rooftops"
+        ],
+        "environment": [
+          "Outdoor pedestrian area",
+          "Daytime setting",
+          "Clear sky"
+        ],
+        "colors": [
+          "Terracotta",
+          "Beige",
+          "White",
+          "Green (trees and plants)",
+          "Blue (sky)"
+        ],
+        "visibleText": [
+          "CAFE"
+        ],
+        "uncertainties": [
+          "No visible site context or masterplan",
+          "No visible design constraints or requirements",
+          "No visible sustainability or circulation details"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 11,
+      "file": "img-p011-r002-01.jpeg",
+      "output": {
+        "summary": "An aerial perspective sketch of the P2 South Business Park, showcasing a mixed-use development with low-rise buildings, landscaped public spaces, and a prominent central tower. A distant city skyline and infrastructure are visible in the background.",
+        "subjects": [
+          "P2 South Business Park",
+          "Mixed-use development",
+          "Central tower",
+          "Public plazas and landscaping",
+          "Road network",
+          "Distant city skyline"
+        ],
+        "style": [
+          "Architectural rendering",
+          "Aerial perspective",
+          "Conceptual design"
+        ],
+        "environment": [
+          "Urban development",
+          "Open landscape in background",
+          "Infrastructure (roads, bridges)"
+        ],
+        "colors": [
+          "Beige and tan buildings",
+          "Green landscaping",
+          "Blue sky with clouds"
+        ],
+        "visibleText": [
+          "20 21"
+        ],
+        "uncertainties": [
+          "No visible scale or measurements",
+          "No visible legend or orientation",
+          "No visible program or phasing details"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 11,
+      "file": "img-p011-r003-01.jpeg",
+      "output": {
+        "summary": "An aerial perspective of the P2 South Business Park, highlighting key infrastructure including the Ministry of Culture bridge, its welcome hall, and surrounding roadways and green spaces.",
+        "subjects": [
+          "P2 South Business Park",
+          "Ministry of Culture bridge",
+          "Ministry of Culture welcome hall",
+          "Roadways",
+          "Green spaces"
+        ],
+        "style": [
+          "Aerial view",
+          "Architectural rendering",
+          "Landscape integration"
+        ],
+        "environment": [
+          "Urban development",
+          "Infrastructure",
+          "Transportation network"
+        ],
+        "colors": [
+          "White (buildings)",
+          "Green (vegetation)",
+          "Brown (earth/road surfaces)",
+          "Orange (labels and lines)"
+        ],
+        "visibleText": [
+          "Ministry of Culture bridge welcome hall",
+          "Ministry of Culture bridge",
+          "P2 South Business Park"
+        ],
+        "uncertainties": [
+          "No visible scale or dimensions",
+          "No visible legend or key",
+          "No visible program or phasing details"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 11,
+      "file": "img-p011-r004-01.jpeg",
+      "output": {
+        "summary": "An aerial view of the P2 South Business Park development, showing proposed buildings, landscaping, and key infrastructure such as a bridge and welcome hall. The site is divided into consultant scope and contracted areas, with the Ministry of Culture project highlighted.",
+        "subjects": [
+          "P2 South Business Park",
+          "Ministry of Culture bridge and welcome hall",
+          "Ministry of Culture (Contracted)",
+          "Consultant Scope"
+        ],
+        "style": [
+          "Aerial perspective",
+          "Architectural rendering",
+          "3D visualization"
+        ],
+        "environment": [
+          "Urban development",
+          "Road network",
+          "Green spaces",
+          "Construction site"
+        ],
+        "colors": [
+          "White (buildings)",
+          "Green (trees)",
+          "Brown (earth)",
+          "Orange (labels and lines)"
+        ],
+        "visibleText": [
+          "P2 South Business Park",
+          "Ministry of Culture bridge and welcome hall",
+          "Ministry of Culture (Contracted)",
+          "Consultant Scope"
+        ],
+        "uncertainties": [
+          "No visible scale or dimensions",
+          "No visible program or phasing details",
+          "No visible sustainability or access details"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 12,
+      "file": "img-p012-r001-01.jpeg",
+      "output": {
+        "summary": "The image shows a traditional earthen fortress with crenellated walls and a wooden gate, set against a clear blue sky. The structure appears to be in a desert or arid environment.",
+        "subjects": [
+          "fortress",
+          "earthen walls",
+          "crenellations",
+          "wooden gate",
+          "desert landscape"
+        ],
+        "style": [
+          "traditional",
+          "historic",
+          "architectural"
+        ],
+        "environment": [
+          "desert",
+          "arid",
+          "open sky"
+        ],
+        "colors": [
+          "tan",
+          "brown",
+          "blue"
+        ],
+        "visibleText": [],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.99,
+          "interpretation": 0.98
+        }
+      }
+    },
+    {
+      "page": 12,
+      "file": "img-p012-r002-01.jpeg",
+      "output": {
+        "summary": "A rendered architectural visualization of a traditional Middle Eastern courtyard complex with sand-colored buildings, arched windows, a central fountain, and people in traditional attire.",
+        "subjects": [
+          "architectural rendering",
+          "courtyard",
+          "traditional architecture",
+          "Middle Eastern design",
+          "people in traditional attire"
+        ],
+        "style": [
+          "architectural visualization",
+          "rendered image",
+          "digital illustration"
+        ],
+        "environment": [
+          "open courtyard",
+          "fountain",
+          "trees",
+          "paved walkways"
+        ],
+        "colors": [
+          "sand-colored",
+          "beige",
+          "white",
+          "brown"
+        ],
+        "visibleText": [
+          "4.0 Design Requirements",
+          "Baseline/fixes",
+          "Master Plan compliance"
+        ],
+        "uncertainties": [
+          "No visible dimensions or quantities",
+          "No visible site constraints or risks"
+        ],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 12,
+      "file": "img-p012-r003-01.jpeg",
+      "output": {
+        "summary": "A rendered view of a landscaped pathway in a business park, featuring people, vegetation, and a golf cart, with a wall and gate in the background.",
+        "subjects": [
+          "People sitting on a stone bench",
+          "Person in a golf cart",
+          "People walking in the background",
+          "Trees and shrubs along the pathway",
+          "Stone paving and gravel areas",
+          "Low wall with a wooden gate"
+        ],
+        "style": [
+          "Rendered architectural visualization",
+          "Daytime scene with natural lighting",
+          "Warm color palette with earth tones"
+        ],
+        "environment": [
+          "Outdoor setting",
+          "Business park context",
+          "Landscape with trees and grasses",
+          "Pathway with pedestrian and vehicle access"
+        ],
+        "colors": [
+          "Earth tones",
+          "Green from vegetation",
+          "White from the golf cart",
+          "Brown from the wall and gate"
+        ],
+        "visibleText": [],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 13,
+      "file": "img-p013-r001-01.jpeg",
+      "output": {
+        "summary": "Aerial view of the P2 South Business Park site, showing construction areas, landscaped zones, and surrounding roads with traffic. The site includes a large circular feature in the foreground and several buildings under construction or completed.",
+        "subjects": [
+          "P2 South Business Park",
+          "Construction site",
+          "Roads and traffic",
+          "Landscaping",
+          "Buildings"
+        ],
+        "style": [
+          "Aerial photograph",
+          "Construction site",
+          "Urban development"
+        ],
+        "environment": [
+          "Diriyah Development",
+          "Saudi Arabia"
+        ],
+        "colors": [
+          "Gray (concrete)",
+          "Green (vegetation)",
+          "Brown (soil)",
+          "White (buildings)"
+        ],
+        "visibleText": [
+          "DD-2023-060 Volume 1 of 5 PSA",
+          "of 528"
+        ],
+        "uncertainties": [
+          "No visible dimensions or quantities",
+          "No visible design drawings or plans",
+          "No visible safety or security measures"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 14,
+      "file": "img-p014-r001-01.jpeg",
+      "output": {
+        "summary": "An aerial visualization of the P2 South Business Park, highlighting key components including the Ministry of Culture, its welcome hall, bridge, and the adjacent P2 South Business Park, with a dashed boundary indicating the project area.",
+        "subjects": [
+          "Ministry of Culture",
+          "Ministry of Culture welcome hall",
+          "Ministry of Culture bridge",
+          "P2 South Business Park"
+        ],
+        "style": [
+          "Aerial perspective",
+          "Architectural rendering",
+          "Labeled elements with orange lines",
+          "Dashed boundary outlining project area"
+        ],
+        "environment": [
+          "Urban development",
+          "Road infrastructure",
+          "Green spaces",
+          "Building clusters"
+        ],
+        "colors": [
+          "White for buildings",
+          "Green for vegetation",
+          "Orange for labels and boundaries",
+          "Gray for roads and infrastructure"
+        ],
+        "visibleText": [
+          "Ministry of Culture",
+          "Ministry of Culture welcome hall",
+          "Ministry of Culture bridge",
+          "P2 South Business Park"
+        ],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 14,
+      "file": "img-p014-r002-01.jpeg",
+      "output": {
+        "summary": "An aerial view of the P2 South Business Park, highlighting the Consultant Scope, Ministry of Culture bridge and welcome hall, and the Ministry of Culture (Contracted) area, with a dashed line indicating the boundary of the Consultant Scope.",
+        "subjects": [
+          "P2 South Business Park",
+          "Ministry of Culture bridge and welcome hall",
+          "Ministry of Culture (Contracted)"
+        ],
+        "style": [
+          "Aerial perspective",
+          "Architectural rendering",
+          "Dashed line boundary",
+          "Labelled areas"
+        ],
+        "environment": [
+          "Urban development",
+          "Highway infrastructure",
+          "Green spaces",
+          "Construction site"
+        ],
+        "colors": [
+          "White (buildings)",
+          "Brown (soil/earth)",
+          "Green (vegetation)",
+          "Gray (highways)"
+        ],
+        "visibleText": [
+          "Consultant Scope",
+          "P2 South Business Park",
+          "Ministry of Culture bridge and welcome hall",
+          "Ministry of Culture (Contracted)"
+        ],
+        "uncertainties": [
+          "No visible dimensions or quantities",
+          "No visible design elements or specifications"
+        ],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 14,
+      "file": "img-p014-r003-01.jpeg",
+      "output": {
+        "summary": "The image displays a pre-concept master plan for the Historic Diriyah P2 area, highlighting the P2 South Business Park, Monument Plaza, HQ Offices, Metro Plaza, and connections via Sports Boulevard and a bridge to MOC and D1. It also includes a figure-ground and open space system",
+        "subjects": [
+          "Historic Diriyah P2 Pre-Concept Master Plan",
+          "P2 South Business Park",
+          "Monument Plaza",
+          "HQ Offices",
+          "Metro Plaza",
+          "Connection from Sports Boulevard"
+        ],
+        "style": [
+          "Figure-ground",
+          "Open space system"
+        ],
+        "environment": [
+          "Bridge connection to MOC and D1"
+        ],
+        "colors": [
+          "Orange",
+          "Pink",
+          "Green",
+          "White"
+        ],
+        "visibleText": [
+          "Historic Diriyah P2 Pre-Concept Master Plan",
+          "Figure-ground",
+          "Open space system",
+          "Monument Plaza",
+          "HQ Offices"
+        ],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.99,
+          "interpretation": 0.99
+        }
+      }
+    },
+    {
+      "page": 16,
+      "file": "img-p016-r001-01.jpeg",
+      "output": {
+        "summary": "An aerial view of a proposed architectural complex in a desert environment, featuring multiple buildings with traditional Najdi-style design elements such as mud-brick construction and distinctive rooflines, interspersed with palm trees and landscaped areas, connected by winding,",
+        "subjects": [
+          "architectural complex",
+          "Najdi-style buildings",
+          "palm trees",
+          "landscaped areas",
+          "winding pathways"
+        ],
+        "style": [
+          "traditional Najdi architecture",
+          "mud-brick construction",
+          "desert landscape"
+        ],
+        "environment": [
+          "desert",
+          "palm trees",
+          "winding pathways"
+        ],
+        "colors": [
+          "beige",
+          "brown",
+          "green"
+        ],
+        "visibleText": [
+          "DESIGN CONSULTANT",
+          "5.2.6 Connectivity between above grade & below grade assets:",
+          "5.2.4 Bridge",
+          "5.2.5 GSM Towers",
+          "The tower’s location, as specified, is strategically chosen to optimize network coverage while blending seamlessly with the local cultural heritage. The design"
+        ],
+        "uncertainties": [
+          "The visible text mentions GSM Towers and connectivity, but no GSM tower is visible in the image."
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 16,
+      "file": "img-p016-r002-01.jpeg",
+      "output": {
+        "summary": "Site plan showing elevation levels, access points, and building placements within a development area.",
+        "subjects": [
+          "Access to/from Basement 01",
+          "Access to/from B1 & B3",
+          "Entry to B2",
+          "Exit from B2",
+          "Service Yard",
+          "Future Commercial offices refer to Ideation Report"
+        ],
+        "style": [
+          "Elevation levels marked with LVL + values",
+          "Buildings depicted with simplified architectural forms",
+          "Gray shaded areas indicating ground or plaza spaces",
+          "Text labels for functional zones and access points"
+        ],
+        "environment": [
+          "Site appears to be a developed or planned commercial area",
+          "Surrounding terrain includes sloped or excavated earth",
+          "Presence of roads or pathways for access"
+        ],
+        "colors": [
+          "Beige for surrounding terrain",
+          "Gray for building footprints and ground",
+          "White for roof areas",
+          "Black for text and lines"
+        ],
+        "visibleText": [
+          "LVL +657.076",
+          "LVL +657.156",
+          "LVL +657.587",
+          "LVL +656.280",
+          "LVL +656.400"
+        ],
+        "uncertainties": [
+          "No visible scale bar or unit of measurement",
+          "No visible north arrow or orientation indicator",
+          "No visible legend or key for symbols"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.85
+        }
+      }
+    },
+    {
+      "page": 17,
+      "file": "img-p017-r001-01.jpeg",
+      "output": {
+        "summary": "This is a 3D schematic of a multi-level car park with labeled components and a legend indicating different functional areas.",
+        "subjects": [
+          "Car Park",
+          "Multi-Level Structure",
+          "Design Schematic"
+        ],
+        "style": [
+          "3D Isometric View",
+          "Transparent Floor Plan",
+          "Color-Coded Legend"
+        ],
+        "environment": [
+          "Urban Development",
+          "Business Park",
+          "Infrastructure"
+        ],
+        "colors": [
+          "Orange",
+          "Teal",
+          "Red",
+          "Purple",
+          "Green"
+        ],
+        "visibleText": [
+          "MoC Bridge",
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "uncertainties": [
+          "The exact dimensions and scale of the car park are not visible in the image."
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 17,
+      "file": "img-p017-r002-01.jpeg",
+      "output": {
+        "summary": "This is a site plan for a multi-level car park at P2 South Business Park, showing parking bays, access ramps, entry/exit points, and adjacent roadways.",
+        "subjects": [
+          "Car Park Layout",
+          "Access Ramps",
+          "Entry/Exit Points",
+          "King Khalid Road"
+        ],
+        "style": [
+          "Minimalist",
+          "Color-Coded",
+          "Line Art"
+        ],
+        "environment": [
+          "Urban",
+          "Business Park"
+        ],
+        "colors": [
+          "White",
+          "Beige",
+          "Orange",
+          "Teal",
+          "Red"
+        ],
+        "visibleText": [
+          "King Khalid Road",
+          "ENTRY TO B1",
+          "EXIT FROM B1",
+          "ENTRY TO B3",
+          "EXIT FROM B3"
+        ],
+        "uncertainties": [
+          "No visible dimensions or quantities",
+          "No visible sustainability or landscape features",
+          "No visible circulation or access details beyond labels"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 18,
+      "file": "img-p018-r001-01.jpeg",
+      "output": {
+        "summary": "A close-up view of an intricately decorated wooden door with geometric patterns, painted in earthy tones with blue accents, featuring traditional Najdi architectural elements.",
+        "subjects": [
+          "wooden door",
+          "geometric patterns",
+          "painted designs",
+          "traditional Najdi architecture"
+        ],
+        "style": [
+          "ornate",
+          "decorative",
+          "vernacular"
+        ],
+        "environment": [
+          "indoor or sheltered setting"
+        ],
+        "colors": [
+          "brown",
+          "pink",
+          "blue",
+          "yellow"
+        ],
+        "visibleText": [
+          "Decorated Doors",
+          "Najdi architecture"
+        ],
+        "uncertainties": [
+          "The image is a close-up and does not show the full context of the building or surrounding environment."
+        ],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 18,
+      "file": "img-p018-r002-01.jpeg",
+      "output": {
+        "summary": "The image displays six architectural design stages illustrating the evolution from simple block massing to detailed facade articulation, courtyard definition, and access openings, with labels indicating each phase.",
+        "subjects": [
+          "Simple Block Massing",
+          "Established Tower and Roof access",
+          "Facade Articulation",
+          "Parapet Wall Extruded",
+          "Courtyard Defined",
+          "Access & Openings Created"
+        ],
+        "style": [
+          "Isometric views",
+          "Green arrows indicating extrusion or access points",
+          "Gray block masses with white interior spaces"
+        ],
+        "environment": [],
+        "colors": [
+          "Gray",
+          "White",
+          "Green"
+        ],
+        "visibleText": [
+          "Simple Block Massing",
+          "Established Tower and Roof access",
+          "Facade Articulation",
+          "Parapet Wall Extruded",
+          "Courtyard Defined"
+        ],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 1.0,
+          "interpretation": 1.0
+        }
+      }
+    },
+    {
+      "page": 18,
+      "file": "img-p018-r003-01.jpeg",
+      "output": {
+        "summary": "The image shows a close-up of a traditional Najd-style building facade with a textured, earth-toned surface and decorative geometric openings. A hanging lantern and wooden beam are visible against a clear blue sky.",
+        "subjects": [
+          "Building facade",
+          "Decorative openings",
+          "Hanging lantern",
+          "Wooden beam",
+          "Clear blue sky"
+        ],
+        "style": [
+          "Najd vernacular",
+          "Traditional Saudi architecture",
+          "Earthen material",
+          "Geometric patterns"
+        ],
+        "environment": [
+          "Outdoor",
+          "Daytime",
+          "Clear sky"
+        ],
+        "colors": [
+          "Brown (building)",
+          "Blue (sky)",
+          "Yellow (lantern light)"
+        ],
+        "visibleText": [],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 18,
+      "file": "img-p018-r004-01.jpeg",
+      "output": {
+        "summary": "An aerial view of a traditional Najd-style architectural complex, characterized by low-rise, irregularly shaped buildings with visible timber framing and narrow, winding pathways.",
+        "subjects": [
+          "Traditional Najd vernacular architecture",
+          "Low-rise buildings",
+          "Irregular building shapes",
+          "Timber framing",
+          "Narrow pathways"
+        ],
+        "style": [
+          "Organic form",
+          "Traditional Najd design",
+          "Cultural heritage"
+        ],
+        "environment": [
+          "Desert-like terrain",
+          "Earthen materials",
+          "Minimal vegetation"
+        ],
+        "colors": [
+          "Tan",
+          "Beige",
+          "Brown"
+        ],
+        "visibleText": [
+          "Organic in form",
+          "Small Openings",
+          "Decorated Doors",
+          "Building Articulation"
+        ],
+        "uncertainties": [
+          "No visible scale or measurements",
+          "No visible site context or constraints",
+          "No visible sustainability features or circulation paths"
+        ],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 18,
+      "file": "img-p018-r005-01.png",
+      "output": {
+        "summary": "The image shows a black-and-white view of a decorative architectural element, likely a door or facade feature, with a pattern of triangular cutouts and two rectangular panels. The design suggests a traditional or vernacular style, possibly inspired by Najd architecture, with an '",
+        "subjects": [
+          "The image is a black-and-white photograph of a decorative architectural element,",
+          "It features a grid-like pattern of triangular cutouts arranged vertically in a 4"
+        ],
+        "style": [
+          "The design is geometric and symmetrical,",
+          "The triangular cutouts are arranged in vertical columns,",
+          "There are two rectangular panels at the bottom of the grid,",
+          "The overall appearance suggests a traditional or vernacular architectural style,"
+        ],
+        "environment": [
+          "The element is set against a dark background,",
+          "The surrounding area appears to be a wall or facade,",
+          "The image is monochromatic, with high contrast between light and dark areas."
+        ],
+        "colors": [
+          "The image is black and white,",
+          "The triangular cutouts and rectangular  "
+        ],
+        "visibleText": [
+          "The image does not contain any visible text."
+        ],
+        "uncertainties": [
+          "The exact purpose or context of the element is not clear from the image alone,",
+          "The image does not provide information about the scale or material of the element."
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.85
+        }
+      }
+    },
+    {
+      "page": 18,
+      "file": "img-p018-r006-01.jpeg",
+      "output": {
+        "summary": "The image shows a close-up of a traditional Najd-style building facade with small, irregularly arranged openings and decorative elements, consistent with the architectural language described in the design brief.",
+        "subjects": [
+          "Najd vernacular architecture",
+          "Traditional building facade",
+          "Small openings for ventilation and privacy",
+          "Decorative door elements",
+          "Organic, irregular massing"
+        ],
+        "style": [
+          "Traditional Najd architecture",
+          "Organic form",
+          "Low-rise structure",
+          "Façade articulation"
+        ],
+        "environment": [
+          "Desert or arid climate context",
+          "Cultural heritage representation"
+        ],
+        "colors": [
+          "Beige or light earth tones",
+          "Dark accents from openings and details"
+        ],
+        "visibleText": [
+          "Organic in form",
+          "Small Openings",
+          "Decorated Doors",
+          "Building Articulation"
+        ],
+        "uncertainties": [
+          "No visible scale or dimensions",
+          "No visible site context or surrounding elements",
+          "No visible landscaping or environmental features"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 19,
+      "file": "img-p019-r001-01.jpeg",
+      "output": {
+        "summary": "A site plan showing two distinct structural load zones: a larger green area labeled 'G+3 Zone 107.5 KPA' and a smaller blue area labeled 'on Grade Zone 50.0 KPA'. A red line separates the two zones. A grey road runs along the right edge of the blue zone.",
+        "subjects": [
+          "G+3 Zone 107.5 KPA",
+          "on Grade Zone 50.0 KPA"
+        ],
+        "style": [
+          "Grid lines",
+          "Color-coded zones (green and blue)",
+          "Red boundary line",
+          "Grey road"
+        ],
+        "environment": [
+          "Road adjacent to blue zone",
+          "Grid system for layout"
+        ],
+        "colors": [
+          "Green",
+          "Blue",
+          "Red",
+          "Grey"
+        ],
+        "visibleText": [
+          "G+3 Zone 107.5 KPA",
+          "on Grade Zone 50.0 KPA"
+        ],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.99,
+          "interpretation": 0.98
+        }
+      }
+    },
+    {
+      "page": 19,
+      "file": "img-p019-r002-01.jpeg",
+      "output": {
+        "summary": "A rendered architectural visualization of a traditional Najdi-style building complex with central courtyards, courtyards with patterned paving, and people in traditional attire.",
+        "subjects": [
+          "A central courtyard with patterned paving and a fountain.",
+          "Buildings with traditional Najdi architectural features including crenellated (s"
+        ],
+        "style": [
+          "Traditional Najdi architecture",
+          "Courtyard-based design",
+          "Flat roofs with parapet walls (Sharfat)",
+          "Decorative stone balustrades in foreground"
+        ],
+        "environment": [
+          "Outdoor courtyard setting",
+          "Trees and landscaping",
+          "People in traditional attire (kandura, abaya)",
+          "Sunny, clear sky"
+        ],
+        "colors": [
+          "Warm beige and tan tones for buildings",
+          "Light grey and beige paving stones",
+          "Green from trees and landscaping",
+          "White and black from clothing and paving"
+        ],
+        "visibleText": [
+          "Roofscape All roof tops in Najd are generally flat and usually accessible from central courtyards.",
+          "Building height variations In order to achieve the overall “look and feel” of a traditional Najdi neighborhood, designers are to vary storey heights between 36 ",
+          "Roof tops & Crenellations Saw tooth parapet walls also known as ‘Sharfat’ provides privacy for family members, allowing them to utilize the roofs for gathering ",
+          "Central Activated Courtyards Buildings are generally arranged around courtyards that act as lungs of the houses to regulate the micro-climate.",
+          "Access from the car park to ground floor is mainly through the designed four welcome halls connecting 4 levels of carpark with the ground level."
+        ],
+        "uncertainties": [
+          "The visible text is from a design brief and may not reflect the actual design intent or final design."
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 19,
+      "file": "img-p019-r003-01.jpeg",
+      "output": {
+        "summary": "An aerial view of a traditional Najdi-style architectural complex in a desert environment, featuring courtyards, crenellated walls, and flat roofs with shaded areas.",
+        "subjects": [
+          "Traditional Najdi architecture",
+          "Desert landscape",
+          "Courtyards",
+          "Crenellated walls",
+          "Flat roofs",
+          "Shaded seating areas"
+        ],
+        "style": [
+          "Traditional Najdi",
+          "Desert",
+          "Courtyard-based",
+          "Crenellated walls"
+        ],
+        "environment": [
+          "Desert",
+          "Arid",
+          "Open landscape"
+        ],
+        "colors": [
+          "Tan",
+          "Beige",
+          "Brown",
+          "Green (from vegetation)",
+          "Blue (from water features)"
+        ],
+        "visibleText": [
+          "Roofscape All roof tops in Najd are generally flat and usually accessible from central courtyards.",
+          "Building height variations In order to achieve the overall “look and feel” of a traditional Najdi neighborhood, designers are to vary storey heights between 202",
+          "Roof tops & Crenellations Saw tooth parapet walls also known as ‘Sharfat’ provides privacy for family members, allowing them to utilize the roofs for gathering ",
+          "Central Activated Courtyards Buildings are generally arranged around courtyards that act as lungs of the houses to regulate the micro-climate.",
+          "Access from the car park to ground floor is mainly through the designed four welcome halls connecting 4 levels of carpark with the ground level."
+        ],
+        "uncertainties": [
+          "The visible text is not directly related to the visual evidence in the image."
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 19,
+      "file": "img-p019-r004-01.jpeg",
+      "output": {
+        "summary": "The image shows traditional Najdi architecture with flat roofs, white crenellations (Sharfat), and terracotta-colored walls, set against a backdrop of greenery and desert terrain.",
+        "subjects": [
+          "Traditional Najdi architecture",
+          "Flat roofs",
+          "White crenellations (Sharfat)",
+          "Terracotta-colored walls",
+          "Greenery and desert terrain"
+        ],
+        "style": [
+          "Traditional Najdi design",
+          "Crenellated parapet walls",
+          "Flat roof tops",
+          "Terracotta-colored building facades"
+        ],
+        "environment": [
+          "Desert landscape",
+          "Greenery in the background",
+          "Sunlit conditions"
+        ],
+        "colors": [
+          "Terracotta",
+          "White",
+          "Green",
+          "Brown"
+        ],
+        "visibleText": [
+          "Roofscape All roof tops in Najd are generally flat and usually accessible from central courtyards.",
+          "Building height variations In order to achieve the overall “look and feel” of a traditional Najdi neighborhood, designers are to vary storey heights between 202",
+          "Roof tops & Crenellations Saw tooth parapet walls also known as ‘Sharfat’ provides privacy for family members, allowing them to utilize the roofs for gathering ",
+          "Central Activated Courtyards Buildings are generally arranged around courtyards that act as lungs of the houses to regulate the micro-climate.",
+          "Access from the car park to ground floor is mainly through the designed four welcome halls connecting 4 levels of carpark with the ground level."
+        ],
+        "uncertainties": [
+          "The visible text is not directly related to the visual content of the image."
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 19,
+      "file": "img-p019-r005-01.jpeg",
+      "output": {
+        "summary": "The image shows a traditional Najdi-style building with thick, earth-toned walls, crenellated parapets (known as 'Sharfat'), and small openings. The structure appears to be part of a larger complex with multiple levels and courtyards, consistent with the design brief's emphasis.",
+        "subjects": [
+          "Traditional Najdi architecture",
+          "Crenellated parapets ('Sharfat')",
+          "Thick earthen walls",
+          "Small openings in walls",
+          "Multi-level structure"
+        ],
+        "style": [
+          "Traditional Najdi",
+          "Earthen construction",
+          "Crenellated parapets"
+        ],
+        "environment": [
+          "Desert-like setting",
+          "Clear sky"
+        ],
+        "colors": [
+          "Earthen tones",
+          "Tan",
+          "Beige"
+        ],
+        "visibleText": [
+          "Sharfat",
+          "Roofscape",
+          "Central Activated Courtyards",
+          "Building height variations"
+        ],
+        "uncertainties": [
+          "No visible scale or dimensions",
+          "No visible signage or labels",
+          "No visible access points or circulation paths"
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 20,
+      "file": "img-p020-r001-01.jpeg",
+      "output": {
+        "summary": "A rendering of a luxurious, culturally inspired lobby with traditional Arabic architectural elements, warm lighting, and guests interacting at a reception desk.",
+        "subjects": [
+          "A reception desk with a staff member",
+          "Guests in traditional and modern attire",
+          "A central round table with a decorative base",
+          "Wooden ceiling beams",
+          "Hanging lantern-style lights",
+          "Decorative wall sconces and patterns"
+        ],
+        "style": [
+          "Arabic-inspired design",
+          "Warm, earthy tones",
+          "Luxury finishes",
+          "Traditional cultural motifs"
+        ],
+        "environment": [
+          "Indoor lobby space",
+          "Visible exterior through glass doors",
+          "Large decorative ceramic pots",
+          "Patterned rug"
+        ],
+        "colors": [
+          "Brown",
+          "Beige",
+          "Gold",
+          "White",
+          "Dark wood"
+        ],
+        "visibleText": [
+          "6.6 Interior Design | 6.7 Landscape Design",
+          "38 39"
+        ],
+        "uncertainties": [
+          "No visible dimensions or quantities",
+          "No visible site context or masterplan",
+          "No visible circulation or access routes"
+        ],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 20,
+      "file": "img-p020-r002-01.jpeg",
+      "output": {
+        "summary": "A rendered view of a landscaped entrance pathway in a business park, featuring trees, ornamental grasses, stone paving, and a directional signpost against a beige wall.",
+        "subjects": [
+          "A rendered landscape design for an entrance area of a business park.",
+          "The scene includes a paved pathway, trees, ornamental grasses, and a stone sign.",
+          "The signpost indicates directions to 'Najdi Center' and 'Boulevard Terraces'."
+        ],
+        "style": [
+          "The design uses a warm, earthy color palette with beige walls and stone elements",
+          "The landscaping features native or drought-tolerant plants including ornamental,",
+          "The overall aesthetic is clean, modern, and minimalist with a touch of natural",
+          "The lighting suggests a bright, sunny day with clear shadows."
+        ],
+        "environment": [
+          "The setting is an outdoor entrance area of a commercial or business park.",
+          "The background includes a low beige wall and additional trees.",
+          "The pathway is wide and appears to be made of concrete or pavers.",
+          "The foreground includes stone paving and decorative rocks."
+        ],
+        "colors": [
+          "Beige and tan tones for the walls and pā",
+          "Green from the trees and shrubs.",
+          "Gray and brown tones from the stone and砾",
+          "White from the ornamental grasses and a",
+          "Blue from the sky."
+        ],
+        "visibleText": [
+          "Najdi Center",
+          "Boulevard Terraces"
+        ],
+        "uncertainties": [
+          "The text on the sign is partially obscured and may not be fully legible."
+        ],
+        "confidence": {
+          "detection": 0.95,
+          "interpretation": 0.9
+        }
+      }
+    },
+    {
+      "page": 21,
+      "file": "img-p021-r001-01.jpeg",
+      "output": {
+        "summary": "The image displays the logo for 'البناء المستدام' (Sustainable Building), featuring Arabic text, English text, and a stylized house icon with a checkmark. This logo is likely associated with the sustainability strategy section of a design brief.",
+        "subjects": [
+          "Sustainable Building",
+          "LEED BD+C Gold",
+          "SITES Gold",
+          "MOSTADAM D+C Gold",
+          "Passive design strategies",
+          "Water conservation methods"
+        ],
+        "style": [
+          "Logo",
+          "Text-based",
+          "Arabic and English text",
+          "Stylized house icon with checkmark"
+        ],
+        "environment": [
+          "Sustainability strategy",
+          "Design brief",
+          "Pre-Concept & Concept Design"
+        ],
+        "colors": [
+          "Teal",
+          "Blue",
+          "Black"
+        ],
+        "visibleText": [
+          "البناء المستدام",
+          "Sustainable Building",
+          "LEED BD+C Gold",
+          "SITES Gold",
+          "MOSTADAM D+C Gold"
+        ],
+        "uncertainties": [
+          "The image is a logo, not a full page or document."
+        ],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 21,
+      "file": "img-p021-r003-01.png",
+      "output": {
+        "summary": "A black-and-white photograph of a bird perched on the curved, whitewashed wall of a building with small, irregularly shaped openings. The background is blurred, showing a distant, hazy landscape.",
+        "subjects": [
+          "bird",
+          "building",
+          "wall",
+          "openings",
+          "landscape"
+        ],
+        "style": [
+          "black and white",
+          "minimalist",
+          "architectural",
+          "landscape"
+        ],
+        "environment": [
+          "outdoor",
+          "daytime",
+          "hazy sky",
+          "distant landscape"
+        ],
+        "colors": [
+          "white",
+          "gray",
+          "black"
+        ],
+        "visibleText": [],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.99,
+          "interpretation": 0.98
+        }
+      }
+    },
+    {
+      "page": 23,
+      "file": "img-p023-r001-01.jpeg",
+      "output": {
+        "summary": "A narrow, dimly lit alleyway with textured, light-colored walls, featuring a small building with a door and narrow windows, illuminated by hanging lanterns.",
+        "subjects": [
+          "architectural design",
+          "alleyway",
+          "building facade",
+          "lanterns",
+          "windows",
+          "door"
+        ],
+        "style": [
+          "Najdi architectural style",
+          "traditional",
+          "heritage-inspired"
+        ],
+        "environment": [
+          "urban alley",
+          "stone-paved path",
+          "low-light ambiance"
+        ],
+        "colors": [
+          "monochrome",
+          "sepia tones",
+          "light and dark contrasts"
+        ],
+        "visibleText": [
+          "8.0 Design Vision | 8.1 General",
+          "The P2 South Commercial offices stands as a monument to the indomitable architectural spirit that pervades throughout the Diriyah Development.",
+          "The architectural vision pivots on revering and enshrining the local Najdi style of architecture and exalting the inherent beauty of the Najdi aesthetic.",
+          "This vision extends its tribute to the Najdi heritage, taking careful cues from the adjacently positioned At-Turaif UNESCO heritage site."
+        ],
+        "uncertainties": [
+          "The image is a photograph, not a design drawing or plan, so no specific dimensions or quantities are visible."
+        ],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 24,
+      "file": "img-p024-r001-01.jpeg",
+      "output": {
+        "summary": "The image shows a narrow alleyway between traditional-style buildings with earth-toned, textured walls and a paved walkway. Architectural features include wooden doors, hanging lanterns, and decorative crenellations on the walls.",
+        "subjects": [
+          "architectural design",
+          "alleyway",
+          "traditional architecture",
+          "earth-toned walls",
+          "wooden doors",
+          "hanging lanterns"
+        ],
+        "style": [
+          "traditional",
+          "desert",
+          "vernacular",
+          "modern interpretation"
+        ],
+        "environment": [
+          "urban alley",
+          "pedestrian walkway",
+          "paved pathway",
+          "stone and concrete surfaces"
+        ],
+        "colors": [
+          "earthy tones",
+          "beige",
+          "brown",
+          "gray"
+        ],
+        "visibleText": [],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.98,
+          "interpretation": 0.95
+        }
+      }
+    },
+    {
+      "page": 26,
+      "file": "img-p026-r001-01.jpeg",
+      "output": {
+        "summary": "The image shows a close-up of architectural columns with warm, textured surfaces, illuminated by directional light casting shadows. This is not a document page but an image.",
+        "subjects": [
+          "architectural columns",
+          "textured surfaces",
+          "directional lighting",
+          "shadows"
+        ],
+        "style": [
+          "architectural photography",
+          "minimalist",
+          "warm tones"
+        ],
+        "environment": [
+          "indoor architectural setting"
+        ],
+        "colors": [
+          "warm beige",
+          "light tan",
+          "dark shadows"
+        ],
+        "visibleText": [],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 1.0,
+          "interpretation": 1.0
+        }
+      }
+    },
+    {
+      "page": 27,
+      "file": "img-p027-r001-01.jpeg",
+      "output": {
+        "summary": "The image shows a close-up of architectural columns with warm, directional lighting casting shadows, suggesting an interior or covered space with textured walls and a dark background.",
+        "subjects": [
+          "columns",
+          "architectural detail",
+          "lighting",
+          "shadows",
+          "textured walls",
+          "dark background"
+        ],
+        "style": [
+          "architectural photography",
+          "minimalist composition",
+          "high contrast lighting"
+        ],
+        "environment": [
+          "indoor or covered space",
+          "architectural setting"
+        ],
+        "colors": [
+          "warm tones",
+          "beige",
+          "dark brown",
+          "black"
+        ],
+        "visibleText": [],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.99,
+          "interpretation": 0.98
+        }
+      }
+    },
+    {
+      "page": 28,
+      "file": "img-p028-r001-01.png",
+      "output": {
+        "summary": "",
+        "subjects": [],
+        "style": [],
+        "environment": [],
+        "colors": [],
+        "visibleText": [],
+        "uncertainties": [],
+        "confidence": {
+          "detection": 0.0,
+          "interpretation": 0.0
+        }
+      }
+    }
+  ],
+  "brief": {
+    "document": {
+      "title": "P2 South Business Park - Design Vision and Concept",
+      "pages": [
+        {
+          "page_number": 14,
+          "content": "An aerial view of the P2 South Business Park, highlighting the Consultant Scope, Ministry of Culture bridge and welcome hall, and the Ministry of Culture (Contracted) area, with a dashed line indicating the boundary of the Consultant Scope."
+        },
+        {
+          "page_number": 16,
+          "content": "An aerial view of a proposed architectural complex in a desert environment, featuring multiple buildings with traditional Najdi-style design elements such as mud-brick construction and distinctive rooflines, interspersed with palm trees and landscaped areas. The text mentions connectivity between above-grade and below-grade assets, including GSM towers and a bridge."
+        },
+        {
+          "page_number": 16,
+          "content": "A site plan showing elevation levels (ranging from LVL +656.280 to +657.587), access points (Basement 01, B1, B2, B3), and functional zones like a Service Yard and future commercial offices."
+        },
+        {
+          "page_number": 17,
+          "content": "A 3D isometric schematic of a multi-level car park with labeled components (A, B, C, D) and a color-coded legend. It also includes a site plan for the car park at P2 South Business Park, showing access ramps, entry/exit points for B1 and B3, and proximity to King Khalid Road."
+        },
+        {
+          "page_number": 18,
+          "content": "Visuals showcasing traditional Najdi architectural elements, including an intricately decorated wooden door with geometric patterns and a series of six architectural design stages illustrating the evolution from simple block massing to detailed facade articulation and courtyard definition."
+        },
+        {
+          "page_number": 19,
+          "content": "A site plan showing structural load zones: a 'G+3 Zone' at 107.5 KPA (green) and an 'on Grade Zone' at 50.0 KPA (blue). Additionally, a rendered visualization shows a traditional Najdi-style building complex with central activated courtyards, flat roofs with 'Sharfat' (crenellations), and varying storey heights."
+        },
+        {
+          "page_number": 20,
+          "content": "Renderings of interior and exterior design: a luxurious, culturally inspired lobby with Arabic architectural elements, and a landscaped entrance pathway featuring a signpost for the 'Najdi Center' and 'Boulevard Terraces'."
+        },
+        {
+          "page_number": 21,
+          "content": "A sustainability section featuring the 'Sustainable Building' logo, targeting LEED BD+C Gold, SITES Gold, and MOSTADAM D+C Gold certifications. It also includes a minimalist black-and-white photograph of a bird on a whitewashed wall."
+        },
+        {
+          "page_number": 23,
+          "content": "A section on 'Design Vision' describing the P2 South Commercial offices as a monument to the Najdi architectural spirit, inspired by the adjacent At-Turaif UNESCO heritage site. The imagery shows a narrow, dimly lit alleyway with traditional lanterns."
+        },
+        {
+          "page_number": 24,
+          "content": "An image of a narrow alleyway between traditional-style buildings with earth-toned walls, wooden doors, and hanging lanterns."
+        },
+        {
+          "page_number": 26,
+          "content": "A close-up architectural photograph of textured columns with directional lighting."
+        },
+        {
+          "page_number": 27,
+          "content": "A minimalist architectural photograph of columns and textured walls with high-contrast lighting."
+        }
+      ]
+    },
+    "project": {
+      "name": "P2 South Business Park",
+      "location": "Near At-Turaif UNESCO heritage site, Diriyah Development",
+      "architectural_style": "Traditional Najdi (mud-brick, crenellated parapets/Sharfat, central courtyards, earth tones)",
+      "key_features": [
+        "Ministry of Culture bridge and welcome hall",
+        "Multi-level car park (B1-B3)",
+        "Central activated courtyards",
+        "Najdi Center and Boulevard Terraces"
+      ],
+      "sustainability_goals": [
+        "LEED BD+C Gold",
+        "SITES Gold",
+        "MOSTADAM D+C Gold"
+      ]
+    },
+    "executiveSummary": "The document outlines the design concept for the P2 South Business Park, a development deeply rooted in the Najdi architectural heritage of the Diriyah region. The project emphasizes a seamless integration of modern infrastructure (such as multi-level parking and GSM connectivity) with traditional aesthetics, including mud-brick textures, central courtyards, and decorative 'Sharfat' rooflines. The design vision aims to honor the nearby At-Turaif UNESCO site while meeting high international sustainability standards (LEED, SITES, and MOSTADAM Gold).",
+    "projectBackground": "The P2 South Commercial offices are part of the broader Diriyah Development, designed to serve as a monument to the local Najdi architectural spirit. The project is situated near the At-Turaif UNESCO heritage site, which heavily influences its aesthetic direction.",
+    "vision": "To reverence and enshrine the local Najdi style of architecture, exalting its inherent beauty and paying tribute to the heritage of the Diriyah region.",
+    "objectives": [
+      "Implement traditional Najdi architectural elements (courtyards, flat roofs, textured walls).",
+      "Ensure high-level connectivity between above-grade and below-grade assets.",
+      "Achieve Gold-level sustainability certifications (LEED, SITES, MOSTADAM).",
+      "Create a culturally resonant environment through interior and landscape design."
+    ],
+    "successCriteria": [
+      "Successful integration of Najdi aesthetics with modern commercial requirements.",
+      "Achievement of LEED BD+C Gold, SITES Gold, and MOSTADAM D+C Gold certifications.",
+      "Effective circulation and access between the multi-level car park and ground-level welcome halls."
+    ],
+    "scope": {
+      "consultant_scope": "Includes the Ministry of Culture bridge, welcome hall, and specific areas within the P2 South Business Park as demarcated in the site plans.",
+      "key_components": [
+        "Ministry of Culture bridge and welcome hall",
+        "Multi-level car park (B1, B2, B3)",
+        "Commercial offices",
+        "Landscaped entrance and pathways",
+        "GSM Towers and connectivity infrastructure"
+      ]
+    },
+    "site": {
+      "location": "P2 South Business Park, adjacent to At-Turaif UNESCO heritage site.",
+      "terrain": "Desert environment with planned urban development, including highways (King Khalid Road) and landscaped green spaces.",
+      "zoning": "Includes G+3 zones and on-grade zones with specific structural load requirements (107.5 KPA and 50.0 KPA respectively)."
+    },
+    "programmeRequirements": [
+      "Multi-level car park with entry/exit for B1 and B3.",
+      "Central activated courtyards for micro-climate regulation.",
+      "Four welcome halls connecting the car park to the ground floor.",
+      "Integration of GSM towers that blend with local cultural heritage."
+    ],
+    "spatialRequirements": [
+      "Traditional Najdi-style buildings with varying storey heights.",
+      "Flat, accessible roofs with 'Sharfat' (sawtooth parapet walls).",
+      "Central courtyards acting as 'lungs' for the buildings.",
+      "Pedestrian-friendly alleyways and landscaped pathways."
+    ],
+    "functionalRequirements": [
+      "Efficient connectivity between above-grade and below-grade assets.",
+      "Strategic placement of GSM towers for optimized network coverage.",
+      "Provision of service yards and future commercial office spaces."
+    ],
+    "designRequirements": [
+      "Use of Najdi-style design elements: mud-brick construction, geometric patterns, and earthy tones.",
+      "Implementation of passive design strategies for sustainability.",
+      "Creation of luxurious, culturally inspired interior spaces (lobbies, reception areas).",
+      "Landscape design featuring native or drought-tolerant plants."
+    ],
+    "technicalRequirements": [
+      "Structural load zones: G+3 (107.5 KPA) and on Grade (50.0 KPA).",
+      "Specific elevation levels for site grading and access.",
+      "Adherence to LEED, SITES, and MOSTADAM Gold standards."
+    ],
+    "digitalRequirements": [
+      "3D isometric schematics for parking and massing evolution.",
+      "Architectural renderings for interior, exterior, and landscape visualization."
+    ],
+    "bimRequirements": [
+      "Not explicitly stated, but implied through the use of detailed 3D schematics and architectural modeling."
+    ],
+    "informationRequirements": [
+      "Detailed site plans showing access, levels, and functional zones.",
+      "Design vision statements and architectural principles.",
+      "Sustainability certification targets."
+    ],
+    "sustainabilityRequirements": [
+      "LEED BD+C Gold certification.",
+      "SITES Gold certification.",
+      "MOSTADAM D+C Gold certification.",
+      "Implementation of passive design and water conservation methods."
+    ],
+    "accessibilityRequirements": [
+      "Access from the car park to the ground floor via four designed welcome halls.",
+      "Connectivity between different basement levels (B1, B2, B3)."
+    ],
+    "securityRequirements": [
+      "Not explicitly stated, but implied through controlled access points and parking layouts."
+    ],
+    "authorityRequirements": [
+      "Compliance with Diriyah Development standards and UNESCO heritage site proximity guidelines."
+    ],
+    "approvals": [
+      "Design approval by the Ministry of Culture and Diriyah Development authorities."
+    ],
+    "stakeholders": [
+      "Ministry of Culture",
+      "Consultant",
+      "Diriyah Development",
+      "UNESCO (as a contextual influence)"
+    ],
+    "users": [
+      "Commercial office tenants",
+      "Visitors to the Najdi Center and Boulevard Terraces",
+      "Ministry of Culture staff and guests"
+    ],
+    "deliverables": [
+      "Architectural design concept and vision.",
+      "Site plans and elevation drawings.",
+      "3D renderings of buildings, interiors, and landscapes.",
+      "Sustainability strategy documentation."
+    ],
+    "milestones": [
+      "Pre-Concept & Concept Design stages (as indicated in the sustainability section)."
+    ],
+    "programme": {
+      "stages": [
+        "Pre-Concept Design",
+        "Concept Design"
+      ]
+    },
+    "commercial": {
+      "revenue_streams": [
+        "Commercial office rentals",
+        "Potential commercial activities in the Boulevard Terraces"
+      ]
+    },
+    "quantities": [
+      "Four welcome halls connecting car park to ground level.",
+      "Multiple basement levels (B1, B2, B3)."
+    ],
+    "constraints": [
+      "Proximity to the At-Turaif UNESCO heritage site requires strict adherence to Najdi architectural styles.",
+      "Specific structural load requirements for different zones."
+    ],
+    "assumptions": [
+      "The design intent will be maintained throughout the construction phase to meet the stated vision and sustainability goals."
+    ],
+    "dependencies": [
+      "The design is dependent on the successful integration of modern infrastructure with traditional Najdi aesthetics."
+    ],
+    "risks": [
+      "Potential challenges in blending modern technology (like GSM towers) with traditional heritage aesthetics.",
+      "Complexity in managing multi-level connectivity and access."
+    ],
+    "decisions": [
+      "Selection of Najdi architecture as the primary design language.",
+      "Commitment to Gold-level sustainability certifications."
+    ],
+    "openQuestions": [
+      "Specific dimensions and quantities for the buildings and infrastructure are not provided in the current document."
+    ],
+    "conflicts": [
+      "None identified in the provided text."
+    ],
+    "missingInformation": [
+      "Detailed dimensions, scale bars, and specific quantities for all components.",
+      "Full site context and masterplan details.",
+      "Specific sustainability metrics beyond the certification targets."
+    ],
+    "recommendedClarifications": [
+      "Request detailed architectural drawings with dimensions and scales.",
+      "Clarify the specific requirements for the GSM tower integration to ensure aesthetic compliance."
+    ],
+    "sourceDocuments": [
+      "P2 South Business Park Design Vision and Concept document (Pages 14-28)."
+    ],
+    "evidenceReferences": [
+      "Page 14: Aerial view of P2 South Business Park and Consultant Scope.",
+      "Page 16: Najdi-style architectural complex and site plan with elevation levels.",
+      "Page 17: 3D car park schematic and site plan with access points.",
+      "Page 18: Najdi architectural details and design evolution stages.",
+      "Page 19: Structural load zones and Najdi courtyard visualization.",
+      "Page 20: Interior lobby and landscape entrance renderings.",
+      "Page 21: Sustainability certification logos.",
+      "Page 23: Design vision statement and alleyway imagery."
+    ]
+  },
+  "executive_summary": {
+    "documentTitle": "P2 South Business Park - Design Vision and Concept",
+    "documentType": "Completed Project Brief",
+    "purpose": "To outline the design concept, architectural vision, and technical requirements for the P2 South Business Park, emphasizing the integration of traditional Najdi heritage with modern commercial infrastructure.",
+    "executiveSummary": "The P2 South Business Park is a development located near the At-Turaif UNESCO heritage site, designed to serve as a monument to the Najdi architectural spirit (Page 23). The project integrates modern amenities, such as multi-level parking and GSM connectivity, with traditional elements like mud-brick construction, central courtyards, and 'Sharfat' (crenellated) rooflines (Page 16, 19). The development aims for high-level sustainability, targeting Gold-level certifications for LEED, SITES, and MOSTADAM (Page 21).",
+    "mainTopics": [
+      {
+        "topic": "Architectural Vision and Style",
+        "details": "The design is heavily inspired by the adjacent At-Turaif UNESCO heritage site, utilizing a traditional Najdi style characterized by earth tones, mud-brick textures, geometric patterns, and central activated courtyards that act as 'lungs' for the buildings (Page 16, 18, 19, 23, 24).",
+        "keyElements": [
+          "Mud-brick construction and earth-toned walls (Page 16, 24)",
+          "Sharfat (crenellated parapets) on flat roofs (Page 19)",
+          "Intricately decorated wooden doors with geometric patterns (Page 18)",
+          "Narrow, pedestrian-friendly alleyways with traditional lanterns (Page 23, 24)"
+        ]
+      },
+      {
+        "topic": "Site and Infrastructure",
+        "details": "The site is located in a desert environment near King Khalid Road (Page 16, 17). It includes complex connectivity between above-grade and below-grade assets (Page 16).",
+        "keyComponents": [
+          "Multi-level car park consisting of levels B1, B2, and B3 (Page 16, 17)",
+          "Ministry of Culture bridge and welcome hall (Page 14)",
+          "GSM towers integrated into the cultural landscape (Page 16)",
+          "Functional zones including a Service Yard and future commercial offices (Page 16)",
+          "Najdi Center and Boulevard Terraces (Page 20)"
+        ]
+      },
+      {
+        "topic": "Technical and Structural Requirements",
+        "details": "The project specifies distinct structural load zones and elevation requirements (Page 16, 19).",
+        "specifications": [
+          "G+3 Zone: 107.5 KPA (Page 19)",
+          "On Grade Zone: 50.0 KPA (Page 19)",
+          "Elevation levels ranging from +656.280 to +657.587 (Page 16)"
+        ]
+      },
+      {
+        "topic": "Sustainability Goals",
+        "details": "The project targets multiple Gold-level certifications (Page 21).",
+        "certifications": [
+          "LEED BD+C Gold",
+          "SITES Gold",
+          "MOSTADAM D+C Gold"
+        ]
+      }
+    ],
+    "keyFindings": [
+      {
+        "finding": "The project scope is specifically demarcated to include the Ministry of Culture bridge and welcome hall (Page 14).",
+        "certainty": "High"
+      },
+      {
+        "finding": "The design evolution follows six distinct stages, moving from simple block massing to detailed facade articulation (Page 18).",
+        "certainty": "High"
+      },
+      {
+        "finding": "The project includes specific commercial components like the 'Boulevard Terraces' and 'Najdi Center' (Page 20).",
+        "certainty": "High"
+      }
+    ],
+    "importantFacts": [
+      {
+        "fact": "The development is situated near the At-Turaif UNESCO heritage site, which dictates the architectural direction (Page 23).",
+        "pageReference": 23
+      },
+      {
+        "fact": "The car park includes access ramps and specific entry/exit points for B1 and B3 (Page 17).",
+        "pageReference": 17
+      }
+    ],
+    "importantFigures": [
+      {
+        "description": "Structural load zones: G+3 (107.5 KPA) and on Grade (50.0 KPA)",
+        "pageReference": 19
+      },
+      {
+        "description": "Elevation range: LVL +656.280 to +657.587",
+        "pageReference": 16
+      }
+    ],
+    "decisions": [
+      "Selection of Najdi architecture as the primary design language.",
+      "Commitment to Gold-level sustainability certifications."
+    ],
+    "risks": [
+      "Potential challenges in blending modern technology (like GSM towers) with traditional heritage aesthetics.",
+      "Complexity in managing multi-level connectivity and access."
+    ],
+    "openQuestions": [
+      "Specific dimensions and quantities for the buildings and infrastructure are not provided in the current document."
+    ],
+    "pageHighlights": [
+      {
+        "page": 14,
+        "summary": "Aerial view showing Consultant Scope and Ministry of Culture areas."
+      },
+      {
+        "page": 16,
+        "summary": "Architectural complex overview and site plan with elevation levels."
+      },
+      {
+        "page": 17,
+        "summary": "3D isometric schematic of the multi-level car park."
+      },
+      {
+        "page": 18,
+        "summary": "Najdi architectural details and design evolution stages."
+      },
+      {
+        "page": 19,
+        "summary": "Structural load zones and courtyard visualization."
+      },
+      {
+        "page": 21,
+        "summary": "Sustainability certification targets."
+      },
+      {
+        "page": 23,
+        "summary": "Design vision statement regarding the Najdi spirit."
+      }
+    ]
+  },
+  "normalized_context": {
+    "title": "P2 South Business Park: Design Vision & Concept Overview",
+    "objective": "Provide a general project overview to the internal team.",
+    "audience": "Internal Team",
+    "tone": "Professional",
+    "language": "English",
+    "requestedSlideCount": 10,
+    "mandatoryTopics": [
+      "Project Location & Context (Diriyah/UNESCO)",
+      "Architectural Vision (Najdi Style)",
+      "Key Infrastructure Components",
+      "Sustainability Targets",
+      "Technical Specifications"
+    ],
+    "constraints": [
+      "Preserve explicit facts from source document.",
+      "Do not invent information or dimensions.",
+      "Maintain professional tone."
+    ],
+    "visualDirection": "High-contrast imagery of Najdi elements, site plans, and certification logos.",
+    "presentationSummary": "The P2 South Business Park is a commercial development near the At-Turaif UNESCO heritage site, designed as a monument to Najdi architectural spirit. It integrates modern infrastructure (multi-level parking, GSM towers) with traditional aesthetics (mud-brick, courtyards, Sharfat). The project targets Gold-level sustainability certifications (LEED, SITES, MOSTADAM).",
+    "slides": [
+      {
+        "index": 1,
+        "title": "Project Overview & Context",
+        "topic": "Location & Heritage",
+        "communicationObjective": "Establish the project's strategic location and cultural significance.",
+        "keyMessage": "Located near the At-Turaif UNESCO heritage site within Diriyah Development, serving as a monument to Najdi architectural spirit.",
+        "purposeId": "general_project_overview",
+        "rationale": "Sets the stage for the design vision by highlighting the UNESCO context (Page 23).",
+        "visualRole": "image"
+      },
+      {
+        "index": 2,
+        "title": "Architectural Vision: The Najdi Spirit",
+        "topic": "Design Language",
+        "communicationObjective": "Define the core aesthetic and cultural drivers of the design.",
+        "keyMessage": "The design honors local heritage through mud-brick textures, earth tones, geometric patterns, central courtyards, and 'Sharfat' (crenellated) rooflines.",
+        "purposeId": "general_project_overview",
+        "rationale": "Explains the 'why' behind the aesthetic choices, referencing the six-stage design evolution (Page 18).",
+        "visualRole": "image"
+      },
+      {
+        "index": 3,
+        "title": "Scope & Key Components",
+        "topic": "Infrastructure",
+        "communicationObjective": "Clarify the Consultant Scope and major physical assets.",
+        "keyMessage": "Includes Ministry of Culture bridge/welcome hall, multi-level car park (B1-B3), Najdi Center, Boulevard Terraces, and GSM connectivity infrastructure.",
+        "purposeId": "general_project_overview",
+        "rationale": "Defines the boundaries of work and key deliverables as per Page 14 and 16.",
+        "visualRole": "image"
+      },
+      {
+        "index": 4,
+        "title": "Site Planning & Connectivity",
+        "topic": "Spatial Organization",
+        "communicationObjective": "Illustrate the relationship between above-grade and below-grade assets.",
+        "keyMessage": "Features seamless connectivity via four welcome halls, access ramps for B1/B3, and a Service Yard, all situated on a desert terrain with specific elevation levels (+656.280 to +657.587).",
+        "purposeId": "general_project_overview",
+        "rationale": "Addresses functional requirements and site logistics (Page 16, 17).",
+        "visualRole": "image"
+      },
+      {
+        "index": 5,
+        "title": "Technical & Structural Specifications",
+        "topic": "Engineering Requirements",
+        "communicationObjective": "Highlight critical structural and zoning constraints.",
+        "keyMessage": "Defined load zones: G+3 (107.5 KPA) and On Grade (50.0 KPA). Design accommodates varying storey heights and flat accessible roofs.",
+        "purposeId": "general_project_overview",
+        "rationale": "Ensures technical accuracy regarding structural limits (Page 19).",
+        "visualRole": "image"
+      },
+      {
+        "index": 6,
+        "title": "Sustainability Strategy",
+        "topic": "Environmental Goals",
+        "communicationObjective": "Outline the environmental certification targets.",
+        "keyMessage": "Targeting Gold-level certifications for LEED BD+C, SITES, and MOSTADAM D+C through passive design and water conservation.",
+        "purposeId": "general_project_overview",
+        "rationale": "Emphasizes the commitment to high sustainability standards (Page 21).",
+        "visualRole": "image"
+      },
+      {
+        "index": 7,
+        "title": "User Experience & Interiors",
+        "topic": "Interior & Landscape",
+        "communicationObjective": "Describe the intended atmosphere for occupants and visitors.",
+        "keyMessage": "Features luxurious culturally inspired lobbies, pedestrian-friendly alleyways with traditional lanterns, and landscaped pathways (Najdi Center/Boulevard Terraces).",
+        "purposeId": "general_project_overview",
+        "rationale": "Connects the architectural vision to human-scale experience (Page 20, 23).",
+        "visualRole": "image"
+      },
+      {
+        "index": 8,
+        "title": "Stakeholders & Authority Requirements",
+        "topic": "Governance",
+        "communicationObjective": "Identify key regulatory and partnership entities.",
+        "keyMessage": "Requires approval from Ministry of Culture and Diriyah Development authorities, with strict adherence to UNESCO heritage guidelines.",
+        "purposeId": "general_project_overview",
+        "rationale": "Clarifies the compliance landscape (Page 23).",
+        "visualRole": "image"
+      },
+      {
+        "index": 9,
+        "title": "Design Evolution & Details",
+        "topic": "Process",
+        "communicationObjective": "Showcase the progression from concept to detail.",
+        "keyMessage": "Evolution moves from simple block massing to detailed facade articulation and courtyard definition, utilizing geometric patterns and textured columns.",
+        "purposeId": "general_project_overview",
+        "rationale": "Demonstrates the rigor of the design process (Page 18).",
+        "visualRole": "image"
+      },
+      {
+        "index": 10,
+        "title": "Summary & Next Steps",
+        "topic": "Conclusion",
+        "communicationObjective": "Reiterate success criteria and open questions.",
+        "keyMessage": "Success depends on integrating Najdi aesthetics with modern commercial needs while achieving Gold certifications. Key unknowns include specific dimensions and GSM integration details.",
+        "purposeId": "general_project_overview",
+        "rationale": "Concludes the overview and flags areas requiring clarification (Page 23, Open Questions).",
+        "visualRole": "image"
+      }
+    ]
+  },
+  "slide_plan": {
+    "presentationSummary": "The P2 South Business Park is a commercial development near the At-Turaif UNESCO heritage site, designed as a monument to Najdi architectural spirit. It integrates modern infrastructure (multi-level parking, GSM towers) with traditional aesthetics (mud-brick, courtyards, Sharfat). The project targets Gold-level sustainability certifications (LEED, SITES, MOSTADAM).",
+    "slides": [
+      {
+        "index": 1,
+        "title": "Project Overview & Context",
+        "topic": "Location & Heritage",
+        "communicationObjective": "Establish the project's strategic location and cultural significance.",
+        "keyMessage": "Located near the At-Turaif UNESCO heritage site within Diriyah Development, serving as a monument to Najdi architectural spirit.",
+        "purposeId": "general_project_overview",
+        "rationale": "Sets the stage for the design vision by highlighting the UNESCO context (Page 23).",
+        "visualRole": "image"
+      },
+      {
+        "index": 2,
+        "title": "Architectural Vision: The Najdi Spirit",
+        "topic": "Design Language",
+        "communicationObjective": "Define the core aesthetic and cultural drivers of the design.",
+        "keyMessage": "The design honors local heritage through mud-brick textures, earth tones, geometric patterns, central courtyards, and 'Sharfat' (crenellated) rooflines.",
+        "purposeId": "general_project_overview",
+        "rationale": "Explains the 'why' behind the aesthetic choices, referencing the six-stage design evolution (Page 18).",
+        "visualRole": "image"
+      },
+      {
+        "index": 3,
+        "title": "Scope & Key Components",
+        "topic": "Infrastructure",
+        "communicationObjective": "Clarify the Consultant Scope and major physical assets.",
+        "keyMessage": "Includes Ministry of Culture bridge/welcome hall, multi-level car park (B1-B3), Najdi Center, Boulevard Terraces, and GSM connectivity infrastructure.",
+        "purposeId": "general_project_overview",
+        "rationale": "Defines the boundaries of work and key deliverables as per Page 14 and 16.",
+        "visualRole": "image"
+      },
+      {
+        "index": 4,
+        "title": "Site Planning & Connectivity",
+        "topic": "Spatial Organization",
+        "communicationObjective": "Illustrate the relationship between above-grade and below-grade assets.",
+        "keyMessage": "Features seamless connectivity via four welcome halls, access ramps for B1/B3, and a Service Yard, all situated on a desert terrain with specific elevation levels (+656.280 to +657.587).",
+        "purposeId": "general_project_overview",
+        "rationale": "Addresses functional requirements and site logistics (Page 16, 17).",
+        "visualRole": "image"
+      },
+      {
+        "index": 5,
+        "title": "Technical & Structural Specifications",
+        "topic": "Engineering Requirements",
+        "communicationObjective": "Highlight critical structural and zoning constraints.",
+        "keyMessage": "Defined load zones: G+3 (107.5 KPA) and On Grade (50.0 KPA). Design accommodates varying storey heights and flat accessible roofs.",
+        "purposeId": "general_project_overview",
+        "rationale": "Ensures technical accuracy regarding structural limits (Page 19).",
+        "visualRole": "image"
+      },
+      {
+        "index": 6,
+        "title": "Sustainability Strategy",
+        "topic": "Environmental Goals",
+        "communicationObjective": "Outline the environmental certification targets.",
+        "keyMessage": "Targeting Gold-level certifications for LEED BD+C, SITES, and MOSTADAM D+C through passive design and water conservation.",
+        "purposeId": "general_project_overview",
+        "rationale": "Emphasizes the commitment to high sustainability standards (Page 21).",
+        "visualRole": "image"
+      },
+      {
+        "index": 7,
+        "title": "User Experience & Interiors",
+        "topic": "Interior & Landscape",
+        "communicationObjective": "Describe the intended atmosphere for occupants and visitors.",
+        "keyMessage": "Features luxurious culturally inspired lobbies, pedestrian-friendly alleyways with traditional lanterns, and landscaped pathways (Najdi Center/Boulevard Terraces).",
+        "purposeId": "general_project_overview",
+        "rationale": "Connects the architectural vision to human-scale experience (Page 20, 23).",
+        "visualRole": "image"
+      },
+      {
+        "index": 8,
+        "title": "Stakeholders & Authority Requirements",
+        "topic": "Governance",
+        "communicationObjective": "Identify key regulatory and partnership entities.",
+        "keyMessage": "Requires approval from Ministry of Culture and Diriyah Development authorities, with strict adherence to UNESCO heritage guidelines.",
+        "purposeId": "general_project_overview",
+        "rationale": "Clarifies the compliance landscape (Page 23).",
+        "visualRole": "image"
+      },
+      {
+        "index": 9,
+        "title": "Design Evolution & Details",
+        "topic": "Process",
+        "communicationObjective": "Showcase the progression from concept to detail.",
+        "keyMessage": "Evolution moves from simple block massing to detailed facade articulation and courtyard definition, utilizing geometric patterns and textured columns.",
+        "purposeId": "general_project_overview",
+        "rationale": "Demonstrates the rigor of the design process (Page 18).",
+        "visualRole": "image"
+      },
+      {
+        "index": 10,
+        "title": "Summary & Next Steps",
+        "topic": "Conclusion",
+        "communicationObjective": "Reiterate success criteria and open questions.",
+        "keyMessage": "Success depends on integrating Najdi aesthetics with modern commercial needs while achieving Gold certifications. Key unknowns include specific dimensions and GSM integration details.",
+        "purposeId": "general_project_overview",
+        "rationale": "Concludes the overview and flags areas requiring clarification (Page 23, Open Questions).",
+        "visualRole": "image"
+      }
+    ]
+  },
+  "slides": [
+    {
+      "plan": {
+        "index": 1,
+        "title": "Project Overview & Context",
+        "topic": "Location & Heritage",
+        "communicationObjective": "Establish the project's strategic location and cultural significance.",
+        "keyMessage": "Located near the At-Turaif UNESCO heritage site within Diriyah Development, serving as a monument to Najdi architectural spirit.",
+        "purposeId": "general_project_overview",
+        "rationale": "Sets the stage for the design vision by highlighting the UNESCO context (Page 23).",
+        "visualRole": "image"
+      },
+      "enrichment": {
+        "contentBrief": "Establish the project's strategic location within the Diriyah Development and its cultural significance as a monument to Najdi architectural spirit, specifically highlighting its proximity to the At-Turaif UNESCO heritage site.",
+        "requiredContent": [
+          "Explicitly state the project's location near the At-Turaif UNESCO heritage site.",
+          "Identify the broader context as the Diriyah Development.",
+          "Define the project's role as a monument celebrating Najdi architectural spirit.",
+          "Connect the location to the design vision rationale found on Page 23."
+        ],
+        "visualBrief": "High-contrast imagery showcasing the site's relationship to the UNESCO heritage zone, utilizing maps or aerial views that highlight the proximity and cultural context.",
+        "researchNeeds": [
+          "Verify specific distance metrics between the project site and At-Turaif if available in source docs.",
+          "Confirm exact phrasing regarding 'monument to Najdi architectural spirit' from Page 23."
+        ]
+      },
+      "copy": {
+        "title": "Project Overview & Context",
+        "body": [
+          "Strategically located within the Diriyah Development near the At-Turaif UNESCO heritage site.",
+          "Serves as a monument celebrating the spirit of Najdi architecture."
+        ],
+        "speakerNotes": "This slide establishes the project's cultural significance and strategic positioning, setting the stage for the design vision by highlighting its proximity to the UNESCO site (Page 23)."
+      }
+    },
+    {
+      "plan": {
+        "index": 2,
+        "title": "Architectural Vision: The Najdi Spirit",
+        "topic": "Design Language",
+        "communicationObjective": "Define the core aesthetic and cultural drivers of the design.",
+        "keyMessage": "The design honors local heritage through mud-brick textures, earth tones, geometric patterns, central courtyards, and 'Sharfat' (crenellated) rooflines.",
+        "purposeId": "general_project_overview",
+        "rationale": "Explains the 'why' behind the aesthetic choices, referencing the six-stage design evolution (Page 18).",
+        "visualRole": "image"
+      },
+      "enrichment": {
+        "contentBrief": "Define the core aesthetic and cultural drivers of the P2 South Business Park design by explaining how the 'Najdi Spirit' is translated into physical form. The content must articulate the specific architectural elements—mud-brick textures, earth tones, geometric patterns, central courtyards, and Sharfat rooflines—that honor local heritage while serving as a '",
+        "requiredContent": [
+          "Explain the connection between the design language and the project's role as a monument to Najdi architectural spirit.",
+          "Detail the specific aesthetic elements: mud-brick textures, earth tones, geometric patterns, central courtyards, and Sharfat (crenellated) rooflines.",
+          "Reference the six-stage design evolution process (Page 18) to explain the 'why' behind these choices.",
+          "Describe how these traditional elements integrate with the modern commercial context of the Business Park."
+        ],
+        "visualBrief": "High-contrast imagery showcasing Najdi architectural elements, specifically focusing on textures and rooflines.",
+        "researchNeeds": [
+          "Specific details from Page 18 regarding the six-stage design evolution.",
+          "Confirmation of specific geometric pattern types used in the final design."
+        ]
+      },
+      "copy": {
+        "title": "Architectural Vision: The Najdi Spirit",
+        "body": [
+          "The design honors local heritage through mud-brick textures, earth tones, geometric patterns, central courtyards, and 'Sharfat' (crenellated) rooflines.",
+          "These elements translate the 'Najdi Spirit' into physical form, serving as a monument to architectural tradition within a modern commercial context.",
+          "The aesthetic choices are grounded in a six-stage design evolution process."
+        ],
+        "speakerNotes": "This slide defines the core aesthetic drivers by linking specific traditional elements—mud-brick textures, earth tones, geometric patterns, courtyards, and Sharfat rooflines—to the project's role as a monument to Najdi heritage. The rationale for these choices is derived from the six-stage design evolution detailed on Page 18."
+      }
+    },
+    {
+      "plan": {
+        "index": 3,
+        "title": "Scope & Key Components",
+        "topic": "Infrastructure",
+        "communicationObjective": "Clarify the Consultant Scope and major physical assets.",
+        "keyMessage": "Includes Ministry of Culture bridge/welcome hall, multi-level car park (B1-B3), Najdi Center, Boulevard Terraces, and GSM connectivity infrastructure.",
+        "purposeId": "general_project_overview",
+        "rationale": "Defines the boundaries of work and key deliverables as per Page 14 and 16.",
+        "visualRole": "image"
+      },
+      "enrichment": {
+        "contentBrief": "Define the specific boundaries of the consultant's scope and enumerate the critical physical assets that constitute the P2 South Business Park infrastructure. The content must explicitly list the Ministry of Culture bridge/welcome hall, the multi-level car park spanning levels B1 through B3, the Najdi Center, Boulevard Terraces, and the GSM connectivity grid",
+        "requiredContent": [
+          "Explicitly state that the scope covers the Ministry of Culture bridge and welcome hall.",
+          "Detail the multi-level car park infrastructure, specifically noting the range from basement level 1 (B1) to basement level 3 (B3).",
+          "Identify the Najdi Center as a key component within the project boundaries.",
+          "Include the Boulevard Terraces as a distinct physical asset in the scope.",
+          "Mention the inclusion of GSM connectivity infrastructure as part of the deliverables.",
+          "Reference the source documentation (Pages 14 and 16) to validate these boundaries."
+        ],
+        "visualBrief": "High-contrast site plan or schematic highlighting the specific zones mentioned above, utilizing Najdi architectural imagery styles.",
+        "researchNeeds": [
+          "Verify exact square footage or capacity if available in Pages 14/16 (do not invent dimensions)."
+        ]
+      },
+      "copy": {
+        "title": "Scope & Key Components",
+        "body": [
+          "Ministry of Culture bridge and welcome hall",
+          "Multi-level car park (B1–B3)",
+          "Najdi Center",
+          "Boulevard Terraces",
+          "GSM connectivity infrastructure"
+        ],
+        "speakerNotes": "This slide defines the work boundaries and key deliverables as per Pages 14 and 16, covering all major physical assets from the welcome hall to the connectivity grid."
+      }
+    },
+    {
+      "plan": {
+        "index": 4,
+        "title": "Site Planning & Connectivity",
+        "topic": "Spatial Organization",
+        "communicationObjective": "Illustrate the relationship between above-grade and below-grade assets.",
+        "keyMessage": "Features seamless connectivity via four welcome halls, access ramps for B1/B3, and a Service Yard, all situated on a desert terrain with specific elevation levels (+656.280 to +657.587).",
+        "purposeId": "general_project_overview",
+        "rationale": "Addresses functional requirements and site logistics (Page 16, 17).",
+        "visualRole": "image"
+      },
+      "enrichment": {
+        "contentBrief": "Develop a visual narrative for Slide 4 that explicitly maps the spatial relationship between above-grade and below-grade assets within the P2 South Business Park. The content must highlight the functional connectivity provided by four welcome halls and access ramps serving levels B1 through B3, alongside the designated Service Yard. Crucially, the brief must",
+        "requiredContent": [
+          "Illustrate the seamless vertical and horizontal connectivity between surface-level entry points (four welcome halls) and subterranean parking levels (B1-B3).",
+          "Identify the specific location and function of the Service Yard within the site plan.",
+          "Explicitly state the project's elevation range (+656.280 to +657.587) to contextualize the desert terrain constraints.",
+          "Visually demonstrate how the site logistics accommodate these multi-level assets on the specific topography."
+        ],
+        "visualBrief": "The visual must be a high-contrast site plan or sectional diagram that clearly distinguishes between above-grade and below-grade zones, using annotations to pinpoint the four welcome halls, ramps, and service yard against the specified elev",
+        "researchNeeds": [
+          "Verify the exact geometric layout of the four welcome halls relative to the B1/B3 access points.",
+          "Confirm the precise placement of the Service Yard within the site boundaries.",
+          "Ensure the elevation markers (+656.280 to +657.587) are accurately represented on the terrain model."
+        ]
+      },
+      "copy": {
+        "title": "Site Planning & Connectivity",
+        "body": [
+          "Seamless connectivity via four welcome halls and access ramps serving B1/B3.",
+          "Designated Service Yard integrated into site logistics.",
+          "Project situated on desert terrain with elevations ranging from +656.280 to +657.587."
+        ],
+        "speakerNotes": "This slide illustrates the spatial relationship between above-grade and below-grade assets, addressing functional requirements and site logistics as detailed on pages 16 and 17."
+      }
+    },
+    {
+      "plan": {
+        "index": 5,
+        "title": "Technical & Structural Specifications",
+        "topic": "Engineering Requirements",
+        "communicationObjective": "Highlight critical structural and zoning constraints.",
+        "keyMessage": "Defined load zones: G+3 (107.5 KPA) and On Grade (50.0 KPA). Design accommodates varying storey heights and flat accessible roofs.",
+        "purposeId": "general_project_overview",
+        "rationale": "Ensures technical accuracy regarding structural limits (Page 19).",
+        "visualRole": "image"
+      },
+      "enrichment": {
+        "contentBrief": "This slide must explicitly define the structural load capacities and zoning constraints that govern the building's design. It needs to clearly distinguish between the requirements for the multi-story structure (G+3) and the ground-level elements, while confirming how the roof design accommodates accessibility standards.",
+        "requiredContent": [
+          "State the specific live load requirement for the G+3 structure as 107.5 KPA.",
+          "State the specific live load requirement for On Grade areas as 50.0 KPA.",
+          "Confirm that the structural design accommodates varying storey heights across the project.",
+          "Verify that the roof design is specified as flat and accessible.",
+          "Reference Page 19 of the source document as the basis for these technical limits."
+        ],
+        "visualBrief": "The visual should be a high-contrast diagram or schematic highlighting load zones, clearly labeling the 107.5 KPA and 50.0 KPA values alongside the G+3 and On Grade designations.",
+        "researchNeeds": [
+          "Verify exact terminology for 'On Grade' vs 'Ground Floor' if source uses specific engineering jargon on Page 19.",
+          "Confirm if 'flat accessible roofs' applies to all units or specific zones based on the text."
+        ]
+      },
+      "copy": {
+        "title": "Technical & Structural Specifications",
+        "body": [
+          "G+3 structure live load requirement: 107.5 KPA.",
+          "On Grade areas live load requirement: 50.0 KPA.",
+          "Design accommodates varying storey heights across the project.",
+          "Roof design specified as flat and accessible.",
+          "Source: Page 19."
+        ],
+        "speakerNotes": "This slide highlights critical structural limits, distinguishing between the 107.5 KPA load for the G+3 structure and the 50.0 KPA load for On Grade areas, while confirming the flat accessible roof design."
+      }
+    },
+    {
+      "plan": {
+        "index": 6,
+        "title": "Sustainability Strategy",
+        "topic": "Environmental Goals",
+        "communicationObjective": "Outline the environmental certification targets.",
+        "keyMessage": "Targeting Gold-level certifications for LEED BD+C, SITES, and MOSTADAM D+C through passive design and water conservation.",
+        "purposeId": "general_project_overview",
+        "rationale": "Emphasizes the commitment to high sustainability standards (Page 21).",
+        "visualRole": "image"
+      },
+      "enrichment": {
+        "contentBrief": "This slide must articulate the project's commitment to achieving Gold-level environmental certifications by detailing the specific standards targeted (LEED BD+C, SITES, and MOSTADAM D+C) and explicitly linking these goals to the implementation of passive design strategies and water conservation measures.",
+        "requiredContent": [
+          "Explicitly state the target certification level: Gold for all three specified frameworks.",
+          "List the specific certification bodies: LEED BD+C, SITES, and MOSTADAM D+C.",
+          "Identify the primary mechanisms for achieving these targets: passive design and water conservation.",
+          "Connect the sustainability strategy to the broader project vision of high environmental standards."
+        ],
+        "visualBrief": "Display certification logos (LEED, SITES, MOSTADAM) alongside imagery representing passive design elements (e.g., shading devices, courtyards) or water conservation features.",
+        "researchNeeds": [
+          "Verify the exact page reference for sustainability details in the source document (Page 21).",
+          "Confirm if specific quantitative metrics (e.g., % water reduction) are available to support 'water conservation' claims without inventing data."
+        ]
+      },
+      "copy": {
+        "title": "Sustainability Strategy",
+        "body": [
+          "Targeting Gold-level certifications for LEED BD+C, SITES, and MOSTADAM D+C.",
+          "Achieved through passive design strategies and water conservation measures.",
+          "Demonstrates commitment to high environmental standards."
+        ],
+        "speakerNotes": "This slide outlines our environmental goals by committing to Gold-level certification across three key frameworks. These targets are driven by specific passive design and water conservation implementations, reinforcing our dedication to superior sustainability standards as detailed on Page 21."
+      }
+    },
+    {
+      "plan": {
+        "index": 7,
+        "title": "User Experience & Interiors",
+        "topic": "Interior & Landscape",
+        "communicationObjective": "Describe the intended atmosphere for occupants and visitors.",
+        "keyMessage": "Features luxurious culturally inspired lobbies, pedestrian-friendly alleyways with traditional lanterns, and landscaped pathways (Najdi Center/Boulevard Terraces).",
+        "purposeId": "general_project_overview",
+        "rationale": "Connects the architectural vision to human-scale experience (Page 20, 23).",
+        "visualRole": "image"
+      },
+      "enrichment": {
+        "contentBrief": "This slide must articulate the human-scale atmosphere of the P2 South Business Park by translating the broader Najdi architectural vision into specific interior and landscape experiences. It should describe how occupants and visitors will interact with the space, emphasizing a blend of luxury, cultural heritage, and pedestrian comfort.",
+        "requiredContent": [
+          "Describe the 'luxurious' quality of the culturally inspired lobbies as a primary entry experience.",
+          "Detail the design of pedestrian-friendly alleyways, specifically highlighting the inclusion of traditional lanterns to set the mood.",
+          "Explain the role of landscaped pathways within the Najdi Center and Boulevard Terraces in connecting users to the environment.",
+          "Connect these specific features back to the overarching goal of creating a human-scale experience that honors the Najdi spirit."
+        ],
+        "visualBrief": "High-contrast imagery showcasing interior lobby details, alleyways with lanterns, and landscaped pathways consistent with the project's aesthetic.",
+        "researchNeeds": [
+          "Specific descriptions of 'luxurious' materials or finishes mentioned in Pages 20 and 23.",
+          "Details on the design of traditional lanterns used in the alleyways.",
+          "Information on the specific landscaping elements for the Najdi Center and Boulevard Terraces."
+        ]
+      },
+      "copy": {
+        "title": "User Experience & Interiors",
+        "body": [
+          "Features luxurious, culturally inspired lobbies as a primary entry experience.",
+          "Pedestrian-friendly alleyways incorporate traditional lanterns to set the mood.",
+          "Landscaped pathways at Najdi Center and Boulevard Terraces connect users to the environment."
+        ],
+        "speakerNotes": "This slide translates the architectural vision into a human-scale experience, blending luxury, cultural heritage, and pedestrian comfort to honor the Najdi spirit."
+      }
+    },
+    {
+      "plan": {
+        "index": 8,
+        "title": "Stakeholders & Authority Requirements",
+        "topic": "Governance",
+        "communicationObjective": "Identify key regulatory and partnership entities.",
+        "keyMessage": "Requires approval from Ministry of Culture and Diriyah Development authorities, with strict adherence to UNESCO heritage guidelines.",
+        "purposeId": "general_project_overview",
+        "rationale": "Clarifies the compliance landscape (Page 23).",
+        "visualRole": "image"
+      },
+      "enrichment": {
+        "contentBrief": "Slide 8 must explicitly identify the specific regulatory bodies governing the P2 South Business Park project and define the mandatory compliance framework required for approval. The content should establish that the Ministry of Culture and Diriyah Development authorities hold primary approval authority, while emphasizing that all design and construction must",
+        "requiredContent": [
+          "Identify the Ministry of Culture as a key regulatory authority requiring project approval.",
+          "Identify Diriyah Development authorities as a key regulatory authority requiring project approval.",
+          "State the mandatory adherence to UNESCO heritage guidelines due to the site's proximity to At-Turaif.",
+          "Clarify that these requirements constitute the primary compliance landscape for the project.",
+          "Connect the governance requirements directly to the project's status as a monument to Najdi architectural spirit within a heritage zone."
+        ],
+        "visualBrief": "The visual should feature high-contrast imagery or logos representing the Ministry of Culture, Diriyah Development, and UNESCO to reinforce the authority and regulatory nature of the slide.",
+        "researchNeeds": [
+          "Confirm specific document references on Page 23 regarding the exact phrasing of the compliance landscape."
+        ]
+      },
+      "copy": {
+        "title": "Stakeholders & Authority Requirements",
+        "body": [
+          "Primary approval authority: Ministry of Culture and Diriyah Development authorities.",
+          "Mandatory adherence to UNESCO heritage guidelines due to site proximity to At-Turaif.",
+          "These requirements define the project's primary compliance landscape.",
+          "Governance ensures the project honors the Najdi architectural spirit within a heritage zone."
+        ],
+        "speakerNotes": "This slide clarifies the compliance landscape by identifying the specific regulatory bodies governing the P2 South Business Park. Approval is required from both the Ministry of Culture and Diriyah Development, with strict adherence to UNESCO guidelines necessitated by the site's location near At-Turaif."
+      }
+    },
+    {
+      "plan": {
+        "index": 9,
+        "title": "Design Evolution & Details",
+        "topic": "Process",
+        "communicationObjective": "Showcase the progression from concept to detail.",
+        "keyMessage": "Evolution moves from simple block massing to detailed facade articulation and courtyard definition, utilizing geometric patterns and textured columns.",
+        "purposeId": "general_project_overview",
+        "rationale": "Demonstrates the rigor of the design process (Page 18).",
+        "visualRole": "image"
+      },
+      "enrichment": {
+        "contentBrief": "This slide must visually narrate the design's maturation from a conceptual massing study to a refined architectural detail. It should explicitly illustrate the transition where simple geometric blocks evolve into articulated facades featuring specific Najdi elements like textured columns and courtyard definitions, supported by geometric patterns.",
+        "requiredContent": [
+          "Visual progression showing initial block massing concepts.",
+          "Evolution of facade articulation from simple forms to detailed textures.",
+          "Definition of central courtyards within the design evolution.",
+          "Integration of geometric patterns into the final design language.",
+          "Depiction of textured columns as a key detail element."
+        ],
+        "visualBrief": "High-contrast imagery or diagrams showing the 'before and after' of the design process, specifically highlighting the shift from abstract massing to detailed Najdi elements like mud-brick textures and Sharfat rooflines.",
+        "researchNeeds": [
+          "Source document Page 18 details on the six-stage design evolution.",
+          "Specific visual examples of geometric patterns used in the final facade.",
+          "Images or renderings of the textured columns and courtyard definitions."
+        ]
+      },
+      "copy": {
+        "title": "Design Evolution & Details",
+        "body": [
+          "Progression from simple block massing to detailed facade articulation.",
+          "Evolution defines central courtyards and geometric patterns.",
+          "Integration of Najdi elements including textured columns."
+        ],
+        "speakerNotes": "This slide demonstrates the rigor of the design process by showing how abstract massing matures into refined architectural details, specifically highlighting the shift to articulated facades with Najdi textures and courtyard definitions as detailed on Page 18."
+      }
+    },
+    {
+      "plan": {
+        "index": 10,
+        "title": "Summary & Next Steps",
+        "topic": "Conclusion",
+        "communicationObjective": "Reiterate success criteria and open questions.",
+        "keyMessage": "Success depends on integrating Najdi aesthetics with modern commercial needs while achieving Gold certifications. Key unknowns include specific dimensions and GSM integration details.",
+        "purposeId": "general_project_overview",
+        "rationale": "Concludes the overview and flags areas requiring clarification (Page 23, Open Questions).",
+        "visualRole": "image"
+      },
+      "enrichment": {
+        "contentBrief": "This slide must synthesize the project's dual mandate: honoring Najdi heritage aesthetics while meeting modern commercial functionality and Gold-level sustainability targets. It serves as a concluding summary that validates the design vision against these success criteria. Crucially, it must explicitly flag specific technical unknowns requiring immediateClar",
+        "requiredContent": [
+          "Reiterate the core success metric: The seamless integration of Najdi architectural elements (mud-brick, courtyards, Sharfat) with modern commercial requirements",
+          "Confirm the mandatory sustainability outcome: Achievement of Gold-level certifications for LEED BD+C, SITES, and MOSTADAM D+C",
+          "Explicitly list the critical open questions/unknowns that need resolution to proceed: specific building dimensions and detailed GSM integration protocols",
+          "Reference the source of these open questions (Page 23/Open Questions section) to maintain factual grounding"
+        ],
+        "visualBrief": "The visual should be a high-contrast composite image or graphic that juxtaposes traditional Najdi textures with modern certification logos, perhaps with a 'question mark' icon overlaying the areas of uncertainty (dimensions/GSM).",
+        "researchNeeds": [
+          "Verify the exact phrasing of the 'Open Questions' section on Page 23 to ensure the specific unknowns listed are accurate.",
+          "Confirm the current status of the GSM integration details to ensure they are correctly identified as a pending item."
+        ]
+      },
+      "copy": {
+        "title": "Summary & Next Steps",
+        "body": [
+          "Success requires integrating Najdi aesthetics (mud-brick, courtyards, Sharfat) with modern commercial needs.",
+          "Mandatory outcome: Achieve Gold certifications for LEED BD+C, SITES, and MOSTADAM D+C.",
+          "Critical unknowns requiring resolution: specific building dimensions and GSM integration details.",
+          "See Page 23 (Open Questions) for full list of pending clarifications."
+        ],
+        "speakerNotes": "This slide concludes the overview by validating the design vision against our dual mandate of heritage and sustainability. We must immediately address the open questions regarding dimensions and GSM protocols to proceed."
+      }
+    }
+  ],
+  "elapsed_seconds": 946.3
+}
