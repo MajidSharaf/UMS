@@ -20,6 +20,12 @@ Usage:
     python run_prompt_sweep.py --dry-run
     python run_prompt_sweep.py                       # every stage
     python run_prompt_sweep.py --stages project_brief slide_plan
+    python run_prompt_sweep.py --run-id round2        # label this sweep instead of a timestamp
+
+Every run writes to its own experiments/prompt_sweep/<run-id>/ folder (run-id
+defaults to a timestamp) and refuses to overwrite an existing one, so an old
+sweep - including the pre-fix broken one - is never silently clobbered by a
+later run.
 """
 from __future__ import annotations
 
@@ -39,7 +45,11 @@ import run_full_pipeline as pipe  # noqa: E402
 OUT_DIR = Path(__file__).resolve().parent / "experiments" / "prompt_sweep"
 
 
-def sweep_stage(stage, run_fn, run_args, log, out, timing):
+def _default_run_id() -> str:
+    return time.strftime("%Y%m%d-%H%M%S")
+
+
+def sweep_stage(stage, run_fn, run_args, log, out, timing, run_dir):
     variants = prompts.list_prompts(stage)
     log(f"{stage}: {len(variants)} prompt variants to test")
     stage_started = time.time()
@@ -57,8 +67,9 @@ def sweep_stage(stage, run_fn, run_args, log, out, timing):
         })
     stage_elapsed = round(time.time() - stage_started, 1)
     out[stage] = results
-    (OUT_DIR / f"{stage}_sweep.json").parent.mkdir(parents=True, exist_ok=True)
-    (OUT_DIR / f"{stage}_sweep.json").write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
+    out_path = run_dir / f"{stage}_sweep.json"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(results, indent=2, ensure_ascii=False), encoding="utf-8")
     per_variant = [r["elapsed_seconds"] for r in results]
     timing[stage] = {
         "variants_tested": len(results),
@@ -67,7 +78,7 @@ def sweep_stage(stage, run_fn, run_args, log, out, timing):
         "min_seconds": min(per_variant) if per_variant else 0,
         "max_seconds": max(per_variant) if per_variant else 0,
     }
-    log(f"{stage}: wrote {OUT_DIR / f'{stage}_sweep.json'} "
+    log(f"{stage}: wrote {out_path} "
         f"({stage_elapsed}s total, avg {timing[stage]['avg_seconds_per_variant']}s/variant)")
 
 
@@ -87,8 +98,15 @@ def main():
     parser.add_argument("--text-model", default="gemma4:26b")
     parser.add_argument("--presentation-model", default="qwen3.5:35b-a3b")
     parser.add_argument("--vision-model", default="qwen3-vl:8b-instruct")
+    parser.add_argument("--run-id", default=None,
+                         help="label for this sweep's output directory (default: timestamp). "
+                              "Each sweep gets its own experiments/prompt_sweep/<run-id>/ folder "
+                              "so an old sweep (e.g. the pre-fix broken one) is never overwritten.")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
+
+    run_id = args.run_id or _default_run_id()
+    run_dir = OUT_DIR / run_id
 
     pipe.seed_new_stage_prompts()
 
@@ -98,8 +116,14 @@ def main():
     print(f"Plan: stages={args.stages}")
     for s, n in plan_counts.items():
         print(f"  {s}: {n} prompt variants")
+    print(f"run_id: {run_id}   output dir: {run_dir}")
     if args.dry_run:
         return
+
+    if run_dir.exists():
+        print(f"ERROR: {run_dir} already exists. Pass --run-id with a different "
+              f"label rather than overwriting a prior sweep.")
+        sys.exit(1)
 
     if not ollama_client.is_reachable():
         print("ERROR: Ollama is not reachable. Start it with `ollama serve` first.")
@@ -116,7 +140,7 @@ def main():
     if "image_analysis" in args.stages:
         rep_image = images[0]
         log(f"image_analysis baseline image: {rep_image.filename}")
-        sweep_stage("image_analysis", pipe.run_image_analysis, ([rep_image], args.vision_model, log), log, out, timing)
+        sweep_stage("image_analysis", pipe.run_image_analysis, ([rep_image], args.vision_model, log), log, out, timing, run_dir)
 
     # --- Project Brief: real evidence from a real baseline image pass ---
     baseline_image_results = None
@@ -125,7 +149,7 @@ def main():
         baseline_image_results = _timed_baseline("project_brief:image_analysis", pipe.run_image_analysis,
                                                    timing, images, args.vision_model, log)
         sweep_stage("project_brief", pipe.run_project_brief,
-                    (pages, baseline_image_results, args.text_model, log), log, out, timing)
+                    (pages, baseline_image_results, args.text_model, log), log, out, timing, run_dir)
 
     # --- Slide Plan: real normalized context from a real baseline brief ---
     baseline_normalized = None
@@ -141,7 +165,7 @@ def main():
                                             timing, baseline_brief, args.text_model, log)
         baseline_normalized = _timed_baseline("slide_plan:normalize", pipe.run_normalized_context,
                                                timing, baseline_brief, baseline_summary, args.presentation_model, log)
-        sweep_stage("slide_plan", pipe.run_slide_plan, (baseline_normalized, args.presentation_model, log), log, out, timing)
+        sweep_stage("slide_plan", pipe.run_slide_plan, (baseline_normalized, args.presentation_model, log), log, out, timing, run_dir)
 
     # --- Slide Content: one representative slide from a real baseline plan ---
     if "slide_content" in args.stages:
@@ -165,7 +189,7 @@ def main():
             enrichment = _timed_baseline("slide_content:enrichment", pipe.run_slide_enrichment,
                                           timing, rep_slide, baseline_normalized, args.presentation_model, log)
             sweep_stage("slide_content", pipe.run_slide_content,
-                        (rep_slide, enrichment, args.presentation_model, log), log, out, timing)
+                        (rep_slide, enrichment, args.presentation_model, log), log, out, timing, run_dir)
         else:
             log("slide_content: baseline slide plan failed, skipping this stage's sweep")
 
@@ -173,15 +197,15 @@ def main():
     timing["total_seconds"] = total_elapsed
     timing["total_minutes"] = round(total_elapsed / 60, 1)
 
-    summary_path = OUT_DIR / "sweep_summary.json"
+    summary_path = run_dir / "sweep_summary.json"
     summary_path.write_text(json.dumps(
-        {"per_stage": {s: timing.get(s, {}) for s in out}, "timing": timing}, indent=2), encoding="utf-8")
-    print(f"\nAll done in {timing['total_minutes']} minutes ({total_elapsed}s). Per-stage results in {OUT_DIR}/<stage>_sweep.json")
+        {"run_id": run_id, "per_stage": {s: timing.get(s, {}) for s in out}, "timing": timing}, indent=2), encoding="utf-8")
+    print(f"\nAll done in {timing['total_minutes']} minutes ({total_elapsed}s). Per-stage results in {run_dir}/<stage>_sweep.json")
     for s in out:
         t = timing.get(s, {})
         print(f"  {s}: {t.get('variants_tested', '?')} variants, {t.get('sweep_seconds', '?')}s "
               f"(avg {t.get('avg_seconds_per_variant', '?')}s/variant, range {t.get('min_seconds', '?')}-{t.get('max_seconds', '?')}s)")
-    print("Upload those files for side-by-side comparison, same pattern as before.")
+    print(f"This run's id: {run_id}. Old runs under {OUT_DIR}/<other-run-id>/ are untouched.")
 
 
 if __name__ == "__main__":

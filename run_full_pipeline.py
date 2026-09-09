@@ -28,8 +28,13 @@ rendering, which is out of scope here.
 Usage:
     python run_full_pipeline.py --dry-run
     python run_full_pipeline.py
-    python run_full_pipeline.py --text-model gemma4:26b --presentation-model qwen3.6:35b --vision-model qwen3-vl:8b
-    python run_full_pipeline.py --max-images 5   # sanity pass before the full run
+    python run_full_pipeline.py --run-id round2       # label this run instead of a timestamp
+    python run_full_pipeline.py --max-images 5        # sanity pass before the full run
+
+Every run writes to its own experiments/full_pipeline/<run-id>/ folder (run-id
+defaults to a timestamp) and refuses to overwrite an existing one - past runs,
+including a broken "before the fix" run, are never silently clobbered by a
+later one.
 """
 from __future__ import annotations
 
@@ -47,6 +52,10 @@ from core import prompts  # noqa: E402
 from core import production_schemas as schemas  # noqa: E402
 
 OUT_DIR = Path(__file__).resolve().parent / "experiments" / "full_pipeline"
+
+
+def _default_run_id() -> str:
+    return time.strftime("%Y%m%d-%H%M%S")
 
 # ---------------------------------------------------------------------------
 # Seed the 3 new stages with their real, verbatim production prompts.
@@ -330,9 +339,18 @@ def main():
                          help="brief-image model (production default: Qwen3-VL 8B Instruct)")
     parser.add_argument("--max-images", type=int, default=None,
                          help="cap meaningful images processed, for a fast sanity pass")
-    parser.add_argument("--out", default=str(OUT_DIR / "full_pipeline_result.json"))
+    parser.add_argument("--run-id", default=None,
+                         help="label for this run's output directory (default: timestamp). "
+                              "Each run gets its own experiments/full_pipeline/<run-id>/ folder "
+                              "so results are never silently overwritten by a later run.")
+    parser.add_argument("--out", default=None,
+                         help="explicit output path override; default is "
+                              "experiments/full_pipeline/<run-id>/full_pipeline_result.json")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
+
+    run_id = args.run_id or _default_run_id()
+    out_path = Path(args.out) if args.out else OUT_DIR / run_id / "full_pipeline_result.json"
 
     seed_new_stage_prompts()
 
@@ -346,8 +364,14 @@ def main():
     print("Stages: image_analysis -> project_brief -> executive_summary -> "
           "normalized_context -> slide_plan -> slide_enrichment -> slide_content")
     print("(theme colors excluded)")
+    print(f"run_id: {run_id}   output: {out_path}")
     if args.dry_run:
         return
+
+    if out_path.exists():
+        print(f"ERROR: {out_path} already exists. Pass --run-id with a different "
+              f"label, or --out with an explicit path, rather than overwriting a prior run.")
+        sys.exit(1)
 
     if not ollama_client.is_reachable():
         print("ERROR: Ollama is not reachable. Start it with `ollama serve` first.")
@@ -373,6 +397,7 @@ def main():
             slides_out.append({"plan": slide, "enrichment": enrichment, "copy": copy})
 
     result = {
+        "run_id": run_id,
         "models": {"text": args.text_model, "presentation": args.presentation_model, "vision": args.vision_model},
         "image_analysis": image_results,
         "brief": brief,
@@ -382,7 +407,6 @@ def main():
         "slides": slides_out,
         "elapsed_seconds": round(time.time() - started, 1),
     }
-    out_path = Path(args.out)
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(result, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"\nDone in {result['elapsed_seconds']}s. Wrote {out_path}")
