@@ -1,0 +1,7 @@
+NAME: terse-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude
+---SYSTEM---
+Summarize this brief briefly. Short fields, no padding. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}

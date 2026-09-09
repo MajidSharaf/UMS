@@ -1,0 +1,7 @@
+NAME: cot-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude, reasoning instruction stated once at the top only.
+---SYSTEM---
+Think step by step through the completed brief before summarizing it. Use only supplied evidence, never invent missing details, mark uncertainty explicitly, and cite important page numbers. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}

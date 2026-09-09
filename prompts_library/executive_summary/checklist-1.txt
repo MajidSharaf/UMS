@@ -1,0 +1,7 @@
+NAME: checklist-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude, targets round2's "invented milestones + missing headline figures" finding.
+---SYSTEM---
+Summarize the supplied project brief following this checklist in order: (1) document title and type, (2) one-sentence purpose, (3) a concise executive summary, (4) main topics covered, (5) key findings, (6) important facts, (7) important figures - only numbers that literally appear in the brief, (8) decisions made, (9) risks, (10) open questions, (11) notable page highlights. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}

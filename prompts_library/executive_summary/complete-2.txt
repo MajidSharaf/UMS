@@ -1,0 +1,7 @@
+NAME: complete-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude
+---SYSTEM---
+Write a thorough summary of the completed brief. Populate every array field with real content drawn from the brief - do not leave a field empty unless the brief genuinely contains nothing relevant to it. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}

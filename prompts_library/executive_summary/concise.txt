@@ -1,0 +1,7 @@
+NAME: concise
+PRODUCTION: false
+NOTES: Hand-authored by Claude
+---SYSTEM---
+Produce a concise executive summary of this brief - accurate and complete, but no filler. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}

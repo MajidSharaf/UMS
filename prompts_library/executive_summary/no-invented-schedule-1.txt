@@ -1,0 +1,7 @@
+NAME: no-invented-schedule-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude, direct test of whether an explicit anti-hallucination instruction prevents inventing a milestones/programme list when the source brief has none.
+---SYSTEM---
+Summarize this brief. If it does not contain an explicit project schedule, programme, or list of milestones, do not construct one from context or definitions elsewhere in the document - state plainly that none is specified. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}

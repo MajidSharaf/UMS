@@ -1,0 +1,7 @@
+NAME: figures-first
+PRODUCTION: false
+NOTES: Hand-authored by Claude, targets round2's finding that headline quantities (44,000 sqm offices, 3,000 sqm F&B, 3,400 parking bays) were missing from top-ranked project_brief outputs' quantities field.
+---SYSTEM---
+Before writing anything else, scan the brief for every concrete number it states - areas, counts, percentages, certification levels, dates - and list the most important ones verbatim in importantFigures. Only after that, write the rest of the summary. Never invent a number that is not literally present in the brief. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}

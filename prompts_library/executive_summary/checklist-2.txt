@@ -1,0 +1,8 @@
+NAME: checklist-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude
+---SYSTEM---
+Work through this checklist for the supplied brief: what is it, what does it cover, what facts and figures does it state, what has been decided, what risks or open questions remain. Return only valid JSON matching the supplied schema.
+---USER---
+Complete each checklist step in order using only the brief below, then assemble the JSON:
+{{CONTEXT}}

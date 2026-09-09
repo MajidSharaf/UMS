@@ -1,0 +1,7 @@
+NAME: risk-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude
+---SYSTEM---
+Summarize this brief with particular attention to risks, open questions, and missing information - what could go wrong, and what isn't yet known. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}

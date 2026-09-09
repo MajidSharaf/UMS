@@ -11,17 +11,20 @@ For each testable stage, a single baseline pass produces the shared input
 material once (cached), then every prompt variant for that stage runs
 against that same cached input:
 
-    image_analysis        -> one representative image
+    image_analysis        -> one representative image (or all images with --full-scale)
     project_brief          -> the real evidence from all pages + images
+    executive_summary       -> the real completed brief (production prompt)
     slide_plan              -> the real normalized context from the brief
     slide_content            -> one representative slide from the plan
 
-Usage (always inside tmux - a full sweep across ~23 variants x 4 stages runs
+Usage (always inside tmux - a full sweep across ~23 variants x 4-5 stages runs
 long and must survive an SSH/browser disconnect):
     tmux new -s sweep2
     python run_prompt_sweep.py --dry-run
-    python run_prompt_sweep.py                       # every stage
+    python run_prompt_sweep.py                       # every default stage
     python run_prompt_sweep.py --stages project_brief slide_plan
+    python run_prompt_sweep.py --stages executive_summary --run-id exec_summary_sweep
+    python run_prompt_sweep.py --stages image_analysis --full-scale --run-id img_full_scale
     python run_prompt_sweep.py --run-id round2        # label this sweep instead of a timestamp
     # Ctrl+B then D to detach; `tmux attach -t sweep2` to reattach later.
 
@@ -97,7 +100,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--stages", nargs="*",
                          default=["image_analysis", "project_brief", "slide_plan", "slide_content"],
-                         choices=["image_analysis", "project_brief", "slide_plan", "slide_content"])
+                         choices=["image_analysis", "project_brief", "slide_plan", "slide_content", "executive_summary"])
+    parser.add_argument("--full-scale", action="store_true",
+                         help="image_analysis: test every prompt variant against all real images "
+                              "(the full set, e.g. 47) instead of one representative image. "
+                              "Much slower (variants x images calls) but removes the "
+                              "one-image sample size limitation.")
     parser.add_argument("--text-model", default="gemma4:26b")
     parser.add_argument("--presentation-model", default="qwen3.5:35b-a3b")
     parser.add_argument("--vision-model", default="qwen3-vl:8b-instruct")
@@ -139,11 +147,16 @@ def main():
     out: dict = {}
     timing: dict = {}
 
-    # --- Image Analysis: one representative image ---
+    # --- Image Analysis: one representative image, or every image with --full-scale ---
     if "image_analysis" in args.stages:
-        rep_image = images[0]
-        log(f"image_analysis baseline image: {rep_image.filename}")
-        sweep_stage("image_analysis", pipe.run_image_analysis, ([rep_image], args.vision_model, log), log, out, timing, run_dir)
+        if args.full_scale:
+            log(f"image_analysis (full-scale): {len(images)} images x {len(prompts.list_prompts('image_analysis'))} "
+                f"variants - this is the slow one, expect hours not minutes")
+            sweep_stage("image_analysis", pipe.run_image_analysis, (images, args.vision_model, log), log, out, timing, run_dir)
+        else:
+            rep_image = images[0]
+            log(f"image_analysis baseline image: {rep_image.filename}")
+            sweep_stage("image_analysis", pipe.run_image_analysis, ([rep_image], args.vision_model, log), log, out, timing, run_dir)
 
     # --- Project Brief: real evidence from a real baseline image pass ---
     baseline_image_results = None
@@ -153,6 +166,18 @@ def main():
                                                    timing, images, args.vision_model, log)
         sweep_stage("project_brief", pipe.run_project_brief,
                     (pages, baseline_image_results, args.text_model, log), log, out, timing, run_dir)
+
+    # --- Executive Summary: real completed brief as shared input ---
+    if "executive_summary" in args.stages:
+        if baseline_image_results is None:
+            log("executive_summary: running baseline image analysis for shared evidence (all images, production prompt)")
+            baseline_image_results = _timed_baseline("executive_summary:image_analysis", pipe.run_image_analysis,
+                                                       timing, images, args.vision_model, log)
+        log("executive_summary: running baseline project brief (production prompt) as shared input")
+        es_baseline_brief = _timed_baseline("executive_summary:brief", pipe.run_project_brief,
+                                             timing, pages, baseline_image_results, args.text_model, log)
+        sweep_stage("executive_summary", pipe.run_executive_summary,
+                    (es_baseline_brief, args.text_model, log), log, out, timing, run_dir)
 
     # --- Slide Plan: real normalized context from a real baseline brief ---
     baseline_normalized = None

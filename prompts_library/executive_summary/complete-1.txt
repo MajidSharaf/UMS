@@ -1,0 +1,7 @@
+NAME: complete-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude
+---SYSTEM---
+Cover all of the required fields from the schema - don't drop any for the sake of brevity. Every important fact, figure, decision, risk, and open question in the brief should be represented somewhere in the output. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}

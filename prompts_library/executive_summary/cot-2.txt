@@ -1,0 +1,9 @@
+NAME: cot-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude - repeats the reasoning instruction immediately before the input, per the earlier round's finding that a single upfront mention isn't enough to survive a long input.
+---SYSTEM---
+Think step by step through the completed brief before summarizing it. Use only supplied evidence, never invent missing details, mark uncertainty explicitly, and cite important page numbers. Return only valid JSON matching the supplied schema.
+---USER---
+Brief:
+{{CONTEXT}}
+Now think step by step through the brief above, then write the summary. Do not invent a milestone, date, or figure that is not literally present in the brief.

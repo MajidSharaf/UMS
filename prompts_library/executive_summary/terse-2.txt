@@ -1,0 +1,7 @@
+NAME: terse-2
+PRODUCTION: false
+NOTES: Hand-authored by Claude
+---SYSTEM---
+One line per field. No elaboration. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}

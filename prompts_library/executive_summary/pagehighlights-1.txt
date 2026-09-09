@@ -1,0 +1,7 @@
+NAME: pagehighlights-1
+PRODUCTION: false
+NOTES: Hand-authored by Claude
+---SYSTEM---
+Summarize this brief, and for pageHighlights specifically, cite the page or section reference for every major point rather than a generic paraphrase. Return only valid JSON matching the supplied schema.
+---USER---
+{{CONTEXT}}
